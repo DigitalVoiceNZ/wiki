@@ -9,15 +9,15 @@ We’re not just another DMR network; we’re a community-driven platform that c
 * Digital Voice DMR was born from the desire to embrace the philosphy of experimentation with the desire to run a reliable DMR network.
 
 You can find a list of the talkgroups available at our [channels](../channels.md) page.
+
 ## Our Partners
 
-Digital Voice DMR master servers are operated by various groups; you can find those groups here: current has three master servers, representing their respective networks:
+Digital Voice DMR master servers are operated by various group, currently with four master servers, one each for the participating networks:
 
-* DVDMR (NOC) - Digital Voice DMR 
-* DVNZ - Digital Voice New Zealand
-* DVAU - Digital Voice Australia
-* VKRadio
-
+* [DVDMR](https://dvdmr.org) - Digtal Voice DMR Network Operations (Unlisted/Development)
+* [DVNZ](https://dvnz.nz) - Digital Voice New Zealand
+* [DVAU](https://dvau.au) - DVAU - Digital Voice Australia
+* [VKRadio](https://vradio.com) - VK Radio Multimode Hub
 
 ## Get Connected
 
@@ -25,13 +25,21 @@ You can connect your hotspot to the Digital Voice New Zealand DVDMR master at **
 
 For more information on setting up various devices and software with Digital Voice DMR New Zealand, see our [configuration guides](guides/index.md).
 
+You can view the [DVNZ DMR Dashboard](https://dmr.dvnz.nz) to show connected hotspots, current calls, call history and links.
+
 ## Registering a Talk Group
 
 Talk groups do not require registration to be used.
 
 Before requesting registration please start using your desired talk group for it’s intended purpose then make contact with the Digital Voice team via Discord.
 
-## Bridges
+## Repeater Owners
+
+Repeater connections are welcome!   You can test your repeater by linking it with our usual hotspot master.   
+
+However it is recommended that you get in touch with the DVNZ team to organise a specific repeater connection.
+
+## Building Bridges
 
 Digital Voice has a fair policy when it comes to bridging.  Listed talkgroups however each have an owner who must approve any bridges to that talkgroup.  Please consult with the Digital Voice team on discord before creating any bridges.
 
