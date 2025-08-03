@@ -15,6 +15,7 @@ nav:
     - Device Support: 
       - Index: nzsip/devices/index.md
       - Asterisk: nzsip/devices/asterisk.md
+      - Linphone: nzsip/devices/linphone.md
   - DMR:
     - Digital Voice:
       - About: dvdmr/index.md
