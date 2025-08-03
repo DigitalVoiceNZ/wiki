@@ -1,0 +1,21 @@
+site_name: Digital Voice New Zealand
+theme:
+  name: material
+
+extra_css:
+  - extra.css
+
+nav:
+  - Home: index.md
+  - NZSIP: nzsip
+  - Connect: connect.md
+  - Channels: channels.md
+  - Resources: resources
+
+
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+

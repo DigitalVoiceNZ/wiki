@@ -1,0 +1,13 @@
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+      padding: 8px 8px;
+      width: auto;
+      min-width: 5em;
+}
+.md-typeset table:not([class]) td:first-child {
+     white-space: nowrap;
+     min-width: 10em;
+}
+
+
