@@ -1,5 +1,9 @@
 # NZSIP User Information
 
+## Configuring your Device
+
+See our [Devices](/nzsip/devices) page for information on configuring various phones, systems and software with NZSIP.
+
 ## Direct Dial
 
 NZSIP is interconnected with both Hams Over IP and Amatuer Wire.
