@@ -13,27 +13,39 @@ Your device *should* send registration events;  this is what tells NZSIP where t
 
 The SIP server will be either one of nzsip.nz or world.nzsip.nz depending upon which region you are located in.
 
+See our [Device Configuration Guide](devices/index.md) for specific information relevant to various devices, contributed by our community.
+
+## Extension Status
+
+You can view the status of the extensions directly connected to our network at our [multi-exchange BLF indicator](https://mmd.dvdmr.org).
+
+
 ## Numbering Plan
 
 NZSIP utilises 5 digit numbers for all our extensions, we use the following numbering plan:
 
-|Pattern|Description|Exchange|
-|:--|:--|:--|
-|5xxxx|***Exchange 1 Prefix (AU/NZ)***|nzsip.nz|
-|50xxx|Australian Extensions|nzsip.nz|
-|53xxx|New Zealand Extensions|nzsip.nz|
-|59xxx|Services, Conferences &amp; Bridges|nzsip.nz|
-|6xxxx|***Exchange 2 Prefix (World)***|world.nzsip.nz|
-|610xx|World Extensions|world.nzsip.nz|
-|611xx|Americas Extensions|world.nzsip.nz|
-|612xx|Oceania Extensions|world.nzsip.nz|
-|620xx|Europe Extensions|world.nzsip.nz|
-|621xx|Americas Extensions|world.nzsip.nz|
-|622xx|Africa Extensions|world.nzsip.nz|
-|623xx|Asia Extensions|world.nzsip.nz|
-|69xxx|Services, Conferences &amp; Bridges|world.nzsip.nz|
-|+577\*|Inter Exchange Trunk - ***Hams Over IP***| |
-|+910\*|Inter Exchange Trunk - ***Amateur Wire***| |
+|Prefix||Description|Exchange|
+|:--|:--|:--|:--|
+|5x xxx||***Exchange 1 Prefix (AU/NZ)***|nzsip.nz|
+||50 xxx|Australian Extensions||
+||53 xxx|New Zealand Extensions||
+||59 xxx|Services, Conferences &amp; Bridges||
+|6x xxx||***Exchange 2 Prefix (World)***|world.nzsip.nz|
+||610 xx|World Extensions||
+||611 xx|Americas Extensions||
+||612 xx|Oceania Extensions||
+||620 xx|Europe Extensions||
+||621 xx|Americas Extensions||
+||622 xx|Africa Extensions||
+||623 xx|Asia Extensions||
+||69 xxx|Services, Conferences &amp; Bridges||
+
+### Other Networks
+
+|Prefix|Description|
+|:--|:--|
+|577 \*|Inter Exchange Trunk - ***Hams Over IP***|
+|910 \*|Inter Exchange Trunk - ***Amateur Wire***|
 
 
 See our [Devices](devices/index.md) page for information on configuring various phones, systems and software with NZSIP.
@@ -75,6 +87,7 @@ You can find the Hams Over IP phone book on their [website](https://hamsoverip.c
 You can phone Hams Over IP extensions by prefixing the number with *910*.
 
 You can find the Amateur Wire phone boo on their [website](https://amateurwire.org/)
+
 
 
 
