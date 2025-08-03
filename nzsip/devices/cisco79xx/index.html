@@ -9,22 +9,22 @@
       
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../asterisk/">
       
       
-        <link rel="next" href="../../freedmr/">
+        <link rel="next" href="../linphone/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>Setup Guide - DVNZ Docs</title>
+        <title>Cisco 79xx - DVNZ Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -43,9 +43,9 @@
       
     
     
-      <link rel="stylesheet" href="../../extra.css">
+      <link rel="stylesheet" href="../../../extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configuration-guides" class="md-skip">
+        <a href="#connecting-a-cisco-794060-to-nzsip" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="DVNZ Docs" class="md-header__button md-logo" aria-label="DVNZ Docs" data-md-component="logo">
+    <a href="../../.." title="DVNZ Docs" class="md-header__button md-logo" aria-label="DVNZ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Setup Guide
+              Cisco 79xx
             
           </span>
         </div>
@@ -171,7 +171,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -188,11 +188,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../nzsip/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
           
   
   
@@ -208,8 +210,6 @@
   
   
   
-    
-  
   
     
     
@@ -217,13 +217,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../../dvdmr/" class="md-tabs__link">
           
   
   
@@ -246,7 +244,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../connect/" class="md-tabs__link">
+        <a href="../../../connect/" class="md-tabs__link">
           
   
   
@@ -266,7 +264,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../resources/" class="md-tabs__link">
+        <a href="../../../resources/" class="md-tabs__link">
           
   
   
@@ -300,7 +298,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="DVNZ Docs" class="md-nav__button md-logo" aria-label="DVNZ Docs" data-md-component="logo">
+    <a href="../../.." title="DVNZ Docs" class="md-nav__button md-logo" aria-label="DVNZ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -318,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -337,24 +335,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -367,7 +370,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             NZSIP
@@ -381,7 +384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../nzsip/" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   
@@ -404,7 +407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../nzsip/users/" class="md-nav__link">
+      <a href="../../users/" class="md-nav__link">
         
   
   
@@ -424,6 +427,8 @@
                 
   
   
+    
+  
   
   
     
@@ -434,11 +439,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
@@ -454,7 +459,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             Device Support
@@ -468,7 +473,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../nzsip/devices/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -491,7 +496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../nzsip/devices/asterisk/" class="md-nav__link">
+      <a href="../asterisk/" class="md-nav__link">
         
   
   
@@ -511,10 +516,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../nzsip/devices/cisco79xx/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -525,6 +539,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -537,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../nzsip/devices/linphone/" class="md-nav__link">
+      <a href="../linphone/" class="md-nav__link">
         
   
   
@@ -572,29 +587,24 @@
       
   
   
-    
   
   
-  
     
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -607,7 +617,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             DMR
@@ -618,8 +628,6 @@
                 
   
   
-    
-  
   
   
     
@@ -630,11 +638,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
         
           
           <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
@@ -650,7 +658,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
             Digital Voice
@@ -664,7 +672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../../dvdmr/" class="md-nav__link">
         
   
   
@@ -684,32 +692,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Setup Guide
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../dvdmr/guides/" class="md-nav__link">
         
   
   
@@ -720,44 +706,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#pi-star-wpsd-custom-hosts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pi-Star &amp; WPSD Custom Hosts
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pi-star-dmr-gateway" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pi-Star / DMR Gateway
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -778,7 +726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../freedmr/" class="md-nav__link">
+      <a href="../../../freedmr/" class="md-nav__link">
         
   
   
@@ -849,7 +797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect/" class="md-nav__link">
+      <a href="../../../connect/" class="md-nav__link">
         
   
   
@@ -872,7 +820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../channels/" class="md-nav__link">
+      <a href="../../../channels/" class="md-nav__link">
         
   
   
@@ -943,7 +891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../resources/" class="md-nav__link">
+      <a href="../../../resources/" class="md-nav__link">
         
   
   
@@ -966,7 +914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../resources/reflectors/" class="md-nav__link">
+      <a href="../../../resources/reflectors/" class="md-nav__link">
         
   
   
@@ -1009,32 +957,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#pi-star-wpsd-custom-hosts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pi-Star &amp; WPSD Custom Hosts
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pi-star-dmr-gateway" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pi-Star / DMR Gateway
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1049,58 +971,22 @@
 
 
 
-<h1 id="configuration-guides">Configuration Guides</h1>
-<h2 id="pi-star-wpsd-custom-hosts">Pi-Star &amp; WPSD Custom Hosts</h2>
-<p>Digital Voice DMR is not yet listed in the Pi-Star hosts file; to be able to select it from the Pi-star menu you will need to add some custom local hosts.</p>
-<p>Modifying Pi-Star &amp; WPSD <code>DMR_Hosts.txt</code> file for the DVDU servers.</p>
-<p>1) SSH into you Pi-Star
-2) Make the filesystem read/write for Pi-Star. (This step not needed for WPSD)</p>
-<pre><code>rpi-rw
+<h1 id="connecting-a-cisco-794060-to-nzsip">Connecting a Cisco 7940/60 to NZSIP</h1>
+<p>"The 79 series was a workhorse of the early 2000s office, a fantastic phone, my all time favourite, but setting it up is not for the feint of heart" - VK2WAY.</p>
+<p>Originally these phones were tightly locked down to the proprietary Cisco telephony platform, however when they were reaching end of life Cisco made a SIP firmware available for them, giving them a second life in small offices.  </p>
+<p>There are two main ways of configuring the phone; the <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/3_0/english/administration/guide/ver3_0/maintain.html">Cisco 7940/7960 Administrator Manual</a> for the phone details much of the technical information and parameters for these phones.</p>
+<p>The Cisco 7940 requires changes to your DHCP server, running a tftp server and manually managing configuration files in order for the phone to event boot.  There are plenty of guides on how to install the SIP firmware and set up all the supporting software online.  I highly recommend this one from <a href="https://james-batchelor.com/index.php/2021/01/23/provisioning-a-cisco-7940-7960/">James Batchelor</a></p>
+<p>The settings in either your SIPxxxxxxxx.cnf or SIPDefault.cnf should include the following:</p>
+<pre><code>proxy1_address: &quot;EXCHANGE HOSTNAME&quot;;
+proxy1_port: 5060
+
+line1_authname: &quot;EXTENSION&quot;;
+line1_password: &quot;SECRET&quot;;
+
+directory_url: &quot;http://mmd.dvdmr.org/directory&quot;; 
 </code></pre>
-<p>3) Edit the <code>DMR_Hosts.txt</code> file:</p>
-<pre><code>sudo nano /root/DMR_Hosts.txt
-</code></pre>
-<p>Scroll to the end the file and added the following server info between the two lines of hashes like below</p>
-<pre><code>##############################################################################################
-#
-#                               Custom DMR Hosts
-#
-##############################################################################################
-# Name                          DMR-ID  IP/Hostname                     Password        Port #
-##############################################################################################
-FD_DVDU_DV-AU                   5053    dmr.dvau.au                     passw0rd        62031
-FD_DVDU_DV-NZ                   5300    dmr.dvnz.nz                     passw0rd        62031
-FD_DVDU_VKRadio-AU              5052    dmr.vkradio.com                 passw0rd        62031
-##############################################################################################
-</code></pre>
-<p>Use <code>ctrl-o</code> to save and <code>ctrl-x</code> to exit.</p>
-<p>4) Update the Pi Star hosts</p>
-<pre><code>sudo bash /usr/local/sbin/HostFilesUpdate.sh
-</code></pre>
-<p>Now you should be able to select one the DVDU servers from the drop down menu on the Configuration page for single host mode aka MMDVMHost.</p>
-<p>TNX to Dale (<a href="https://www.qrz.com/db/VK5TUX">VK5TUX</a>) for the instructions for Pi-Star, and Dan (<a href="https://www.qrz.com/db/ZL4ER">ZL4ER</a>) for comfirming this Howto also works on WPSD.</p>
-<h2 id="pi-star-dmr-gateway">Pi-Star / DMR Gateway</h2>
-<p>DMR Gateway allows you to run multiple simultanious DMR networks and have custom talkgroup rewriting rules.</p>
-<p>If you are using DMR Gateway on your Pi-Star you can run multiple simultanious DMR networks.   Log into the web gui of you Pi-Star in you web browser and go to [Configuration] =&gt; [Expert] =&gt; Full Edit: [DMR GW].</p>
-<p>If you are running DMR Gateway outside of Pi-Star or with DMR Only Hotspot update your DMRGateway.ini configuration file with a block for Digital Voice DMR.</p>
-<p>Please don’t just copy and paste what below, it just sample. Scroll down the file to the following and change what is mentioned to change.</p>
-<pre><code>[DMR Network 2]
-Enabled=1
-Address=dmr.dvnz.nz
-Port=62031 # CHANGE TO THIS
-TGRewrite0=2,1,2,1,999998
-SrcRewrite0=2,1,2,1,999998
-PCRewrite0=2,1,2,1,999998
-Password=&quot;passw0rd&quot;
-Debug=0
-Id=1234567 # CHANGE THIS TO YOUR DMRID
-Name=DVNZ_DMR-NZ
-Location=0
-Options=&quot;TS2=90,91,92,530,5301,5302,5303,5304,5304,5305,50500;VOICE=0;LANG=en_GB;TIMER=15&quot; # CHANGE OPTIONS TO YOUR NEEDS
-</code></pre>
-<p>press [Apply] and should be ready to go</p>
-<p>Notes: The sample above has DVAU DMR routing all it’s traffic over TS2 with the way the Rewrite rules are configured on a duplex HS. Read more about <a href="https://github.com/g4klx/DMRGateway/wiki/Rewrite-Rules">rewrite rules</a>.</p>
-<p>TNX to Dale (<a href="https://www.qrz.com/db/VK5TUX">VK5TUX</a>) for the instructions for Pi-Star &amp; DMR Gateway and VK2WAY for additional information around DMR Only Hotspot.</p>
+<p>This is not an extensive list of settings needed by the phone, but other settings should be left with somewhat sensible defaults.</p>
+<p>Be sure to change the EXCHANGE HOSTNAME, EXTENSION and SECRET to those provided to you in your onboarding email.</p>
 
 
 
@@ -1149,10 +1035,10 @@ Options=&quot;TS2=90,91,92,530,5301,5302,5303,5304,5304,5305,50500;VOICE=0;LANG=
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>

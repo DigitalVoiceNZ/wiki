@@ -466,6 +466,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#numbering-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Numbering Plan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#direct-dial" class="md-nav__link">
     <span class="md-ellipsis">
       Direct Dial
@@ -569,6 +578,52 @@
   
   <span class="md-ellipsis">
     Asterisk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devices/cisco79xx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cisco 79xx
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devices/linphone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Linphone
     
   </span>
   
@@ -984,6 +1039,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#numbering-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Numbering Plan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#direct-dial" class="md-nav__link">
     <span class="md-ellipsis">
       Direct Dial
@@ -1019,6 +1083,103 @@
 
 <h1 id="nzsip-user-information">NZSIP User Information</h1>
 <h2 id="configuring-your-device">Configuring your Device</h2>
+<p>You can utilise any SIP phone or device as an extension on NZSIP.   On provisioning of your extension you will receive an
+email with the following details:</p>
+<ul>
+<li>SIP Server - the hostname you need to connect to for your SIP service;  NZSIP uses the default 5060/udp port for SIP.</li>
+<li>Username - this is your username used for registering and for authenticating calls made to NZSIP.  It is the same as your extension number.</li>
+<li>Secret - this is the secret/password used for authenticating your SIP device.</li>
+</ul>
+<p>Your device <em>should</em> send registration events;  this is what tells NZSIP where to reach your phone.</p>
+<p>The SIP server will be either one of nzsip.nz or world.nzsip.nz depending upon which region you are located in.</p>
+<h2 id="numbering-plan">Numbering Plan</h2>
+<p>NZSIP utilises 5 digit numbers for all our extensions, we use the following numbering plan:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Pattern</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Exchange</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">5xxxx</td>
+<td style="text-align: left;"><strong><em>Exchange 1 Prefix (AU/NZ)</em></strong></td>
+<td style="text-align: left;">nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">50xxx</td>
+<td style="text-align: left;">Australian Extensions</td>
+<td style="text-align: left;">nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">53xxx</td>
+<td style="text-align: left;">New Zealand Extensions</td>
+<td style="text-align: left;">nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">59xxx</td>
+<td style="text-align: left;">Services, Conferences &amp; Bridges</td>
+<td style="text-align: left;">nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">6xxxx</td>
+<td style="text-align: left;"><strong><em>Exchange 2 Prefix (World)</em></strong></td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">610xx</td>
+<td style="text-align: left;">World Extensions</td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">611xx</td>
+<td style="text-align: left;">Americas Extensions</td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">612xx</td>
+<td style="text-align: left;">Oceania Extensions</td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">620xx</td>
+<td style="text-align: left;">Europe Extensions</td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">621xx</td>
+<td style="text-align: left;">Americas Extensions</td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">622xx</td>
+<td style="text-align: left;">Africa Extensions</td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">623xx</td>
+<td style="text-align: left;">Asia Extensions</td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">69xxx</td>
+<td style="text-align: left;">Services, Conferences &amp; Bridges</td>
+<td style="text-align: left;">world.nzsip.nz</td>
+</tr>
+<tr>
+<td style="text-align: left;">+577*</td>
+<td style="text-align: left;">Inter Exchange Trunk - <strong><em>Hams Over IP</em></strong></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">+910*</td>
+<td style="text-align: left;">Inter Exchange Trunk - <strong><em>Amatuer Wire</em></strong></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <p>See our <a href="../devices/">Devices</a> page for information on configuring various phones, systems and software with NZSIP.</p>
 <h2 id="direct-dial">Direct Dial</h2>
 <p>NZSIP is interconnected with both Hams Over IP and Amatuer Wire.</p>
@@ -1033,7 +1194,7 @@
 <p>The global directory can be searched using <code>dc=nzsip, dc=nz</code>.   The Organisational units <code>ou=nzsip</code> or <code>ou=external</code> can be prefixed to the base DN to limit your search within the NZSIP or global directories.</p>
 <p>Extensions on other services returned by the NZSIP directory are automatically prefixed with the correct dialing code to reach that particular network.</p>
 <p>See our Phone Configuration guide for how to configure the directory on your specific phone.</p>
-<p>Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying <code>http://directory.nzsip.nz/cisco/directory</code> as the Directory URL in your phone configuration file.</p>
+<p>Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying <code>http://mmd.dvdmr.org/directory</code> as the Directory URL in your phone configuration file.</p>
 
 
 
