@@ -3,7 +3,7 @@
 |Name||DMR|XLX|M17|Allstar|Peanut|SIP|
 |:--||:--|:--|:--|:--|:--|:--|
 |XLX Worldwide|:globe_with_meridians:| |XLX299-A| | | | |
-|NZ Calling|:flag_nz:|530|XLX299-B| | | |
+|NZ Calling|:flag_nz:|530|XLX299-B|M17-NZD-B| | |
 |NZ Region 1|:flag_nz:|5301| | | | |
 |NZ Region 2|:flag_nz:|5302|XLX299-F|M17-NZD-F| | |
 |NZ Region 3|:flag_nz:|5303| | | | |
