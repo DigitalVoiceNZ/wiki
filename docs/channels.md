@@ -3,11 +3,11 @@
 |Name||DMR|XLX|M17|Allstar|Peanut|SIP|
 |:--||:--|:--|:--|:--|:--|:--|
 |XLX Worldwide|:globe_with_meridians:| |XLX299-A| | | | |
-|NZ Calling|:flag_nz:|530|XLX299-B|M17-NZD-B| | |
+|NZ Calling|:flag_nz:|530|XLX299-B|M17-NZD-B|511781| |
 |NZ Region 1|:flag_nz:|5301| | | | |
 |NZ Region 2|:flag_nz:|5302|XLX299-F|M17-NZD-F| | |
 |NZ Region 3|:flag_nz:|5303| | | | |
-|NZ Region 4|:flag_nz:|5304| | | | |
+|NZ Region 4|:flag_nz:|5304| | |511784| |
 |NZ Region 5|:flag_nz:|5305| | | | |
 |NZ XLX50-D|:flag_nz:|5306|XLX50-D| | | |
 |NZ Branch 11|:flag_nz:|53011| | | | |
@@ -16,7 +16,7 @@
 |NZ Chit Chat|:flag_nz:|53029|XLX299-X|M17-NZD-K| | | |
 |NZ Hawkes Bay|:flag_nz:|53067| | | | |
 |NZ R.O.A.R (Rotarians)|:flag_nz:|53080|XLX299-R| | | |
-|NZ DVNZ-UK|:flag_nz:|53085|XLX299-U| | | |
+|NZ DVNZ-UK|:flag_nz:|53085|XLX299-U| |511780| |
 |Caribbean TG969|:flag_nz:|53096|XLX299-G|M17-NZD-G| | |
 |eXperimental AI|:globe_with_meridians:| |XLX299-X| | | |
 |Waikato AREC|:flag_nz:| |XLX299-Y| | | |
@@ -32,13 +32,14 @@ Our partner channels are carried on ***Digital Voice DMR*** with bridges and sys
 
 ## Digital Voice DMR
 
-|Name||DMR|XLX|M17|ASL|Peanut|
+|Name||DMR|XLX|M17|ASL|NZSIP|
 |:--||:--|:--|:--|:--|:--|
-|Worldwide Ragchew|:globe_with_meridians:|90|XLX299-T :material-shield:| |560020| |
-|Worldwide Calling|:globe_with_meridians:|91| | |560021| |
-|Worldwide News/Nets|:globe_with_meridians:|92|XLX299-N :material-shield:| |560022| |
-|Testing: 333|:globe_with_meridians:|333| | |560023| |
-|Testing: 666|:globe_with_meridians:|666| | |560026| |
+|Talkgroup Phone Menu|:globe_with_meridians:| | | | |69200|
+|Worldwide Ragchew|:globe_with_meridians:|90|XLX299-T :material-shield:| |560020|69290|
+|Worldwide Calling|:globe_with_meridians:|91| | |560021|69291|
+|Worldwide News/Nets|:globe_with_meridians:|92|XLX299-N :material-shield:| |560022|69292|
+|Testing: 333|:globe_with_meridians:|333| | |560023|69333|
+|Testing: 666|:globe_with_meridians:|666| | |560026|69666|
 
 ## VK Radio
 
