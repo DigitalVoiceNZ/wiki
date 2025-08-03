@@ -23,6 +23,8 @@ Digital Voice DMR master servers are operated by various groups; you can find th
 
 You can connect your hotspot to the Digital Voice New Zealand DVDMR master at ***dmr.dvnz.nz*** port 62031 using the password `passw0rd`
 
+For more information on setting up various devices and software with Digital Voice DMR New Zealand, see our [configuration guides](guides/index.md).
+
 ## Registering a Talk Group
 
 Talk groups do not require registration to be used.

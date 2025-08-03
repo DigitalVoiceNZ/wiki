@@ -12,9 +12,13 @@ nav:
   - NZSIP: 
     - About: nzsip/index.md
     - User Guide: nzsip/users.md
-    - Device Support: nzsip/devices/index.md
+    - Device Support: 
+      - Index: nzsip/devices/index.md
+      - Asterisk: nzsip/devices/asterisk.md
   - DMR:
-    - Digital Voice: dvdmr/index.md
+    - Digital Voice:
+      - About: dvdmr/index.md
+      - Setup Guide: dvdmr/guides/index.md
     - FreeDMR: freedmr/index.md
   - Our Network:
     - Connect: connect.md
