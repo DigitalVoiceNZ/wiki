@@ -1,4 +1,3 @@
-
 # Welcome to NZSIP
 
 NZSIP is a Voice Over IP service by Digital Voice New Zealand.
@@ -18,7 +17,7 @@ With NZSIP, you can connect your existing SIP-compatible phone or softphone and 
 * Global LDAP Phone Directory (including users of connected services)
 * Games!
 
-Documentation on the various services and how to configure specific hardware can be found in the [NZSIP Documentation](users) library.
+Documentation on the various services and how to configure specific hardware can be found in the [NZSIP Documentation](users.md) library.
 
 ## Requesting an Extension
 

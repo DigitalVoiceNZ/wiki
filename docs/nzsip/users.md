@@ -2,7 +2,7 @@
 
 ## Configuring your Device
 
-See our [Devices](/nzsip/devices) page for information on configuring various phones, systems and software with NZSIP.
+See our [Devices](devices/index.md) page for information on configuring various phones, systems and software with NZSIP.
 
 ## Direct Dial
 

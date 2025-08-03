@@ -3,6 +3,6 @@
 
 Exchange Software
 
-* [Asterisk](asterisk)
+* [Asterisk](asterisk.md)
 
 

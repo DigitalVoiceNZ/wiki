@@ -1,16 +1,27 @@
 site_name: DVNZ Docs
 theme:
   name: material
+  features:
+    - navigation.tabs
 
 extra_css:
   - extra.css
 
 nav:
   - Home: index.md
-  - NZSIP: nzsip
-  - Connect: connect.md
-  - Channels: channels.md
-  - Resources: resources
+  - NZSIP: 
+    - About: nzsip/index.md
+    - User Guide: nzsip/users.md
+    - Device Support: nzsip/devices/index.md
+  - DMR:
+    - Digital Voice: dvdmr/index.md
+    - FreeDMR: freedmr/index.md
+  - Our Network:
+    - Connect: connect.md
+    - Channels: channels.md
+  - Resources: 
+    - Index: resources/index.md
+    - Reflectors: resources/reflectors.md
 
 
 

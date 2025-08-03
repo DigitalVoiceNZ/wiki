@@ -3,7 +3,7 @@
 
 Digital Voice New Zealand started as an XLX reflector - XLX299 - the first New Zealand based multi-mode reflector which still remains the heart of DVNZ supporting D-Star, DMR, YSF, Peanut and Allstar connections.
 
-DVNZ has since expanded it's service offerings to include a full Voice over IP telephone service designed for amateur radio operators across Oceania - [NZSIP](nzsip)
+DVNZ has since expanded it's service offerings to include a full Voice over IP telephone service designed for amateur radio operators across Oceania - [NZSIP](nzsip/index.md)
 
 DVNZ is a founding member of ***Digital Voice Down Under*** a collaboration between DVNZ, DVAU, VKRadio and Digital Voice DMR.
 
