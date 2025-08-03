@@ -21,14 +21,14 @@
 |eXperimental AI|:globe_with_meridians:| |XLX299-X| | | |
 |Waikato AREC|:flag_nz:| |XLX299-Y| | | |
 
-DMR Talkgroups are available on both our Digital Voice Downunder DMR network and on FreeDMR.
+All DMR Talkgroups listed above are available on both our ***Digital Voice Downunder DMR*** network and on FreeDMR.
 
 
 # Partner Channels
 
 In the lists below any bridges marked with a :material-shield: are operated by Digital Voice New Zealand for that partner.
 
-Our partner channels are carried on Digital Voice DMR with bridges and system management provided by our Digital Voice Partner organisations:
+Our partner channels are carried on ***Digital Voice DMR*** with bridges and system management provided by our Digital Voice Partner organisations:
 
 ## Digital Voice DMR
 
@@ -42,22 +42,24 @@ Our partner channels are carried on Digital Voice DMR with bridges and system ma
 
 ## VK Radio
 
-|Name|DMR|XLX|M17|ASL|Peanut|
-|:--|:--|:--|:--|:--|:--|
-|Pride Network|969| | | | |
-|M17 Project|9517| | | | |
+|Name||DMR|XLX|M17|ASL|Peanut|
+|:--||:--|:--|:--|:--|:--|
+|Pride Network|:globe_with_meridians:|969| | | | |
+|M17 Project|:globe_with_meridians:|9517| | | | |
 
 ## Digital Voice Australia
-|Name|DMR|XLX|M17|ASL|Peanut|
-|:--|:--|:--|:--|:--|:--|
-|VK Calling|505| | | | |
-|VK Nets|50500| | | | |
-|VK Chats 1|50501| | | | |
-|VK Chats 2|50502| | | | |
-|VK Chats 3|50503| | | | |
+|Name||DMR|XLX|M17|ASL|Peanut|
+|:--||:--|:--|:--|:--|:--|
+|VK Calling|:flag_au:|505| | | | |
+|VK Nets|50500|:flag_au:| | | | |
+|VK Chats 1|50501|:flag_au:| | | | |
+|VK Chats 2|50502|:flag_au:| | | | |
+|VK Chats 3|50503|:flag_au:| | | | |
 
 
 # Other Networks
+
+DMR talkgroups listed here are carried on other networks:
 
 |Name|DMR|XLX|M17|Allstar|Peanut|SIP|
 |:--|:--|:--|:--|:--|:--|:--|

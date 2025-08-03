@@ -8,6 +8,7 @@ We’re not just another DMR network; we’re a community-driven platform that c
 * Collaboration and Knowledge Sharing: We envision a vibrant community where users share their discoveries, troubleshoot challenges together, and collectively advance the capabilities of digital communications.
 * Digital Voice DMR was born from the desire to embrace the philosphy of experimentation with the desire to run a reliable DMR network.
 
+You can find a list of the talkgroups available at our [channels](../channels.md) page.
 ## Our Partners
 
 Digital Voice DMR master servers are operated by various groups; you can find those groups here: current has three master servers, representing their respective networks:
