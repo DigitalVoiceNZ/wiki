@@ -50,7 +50,7 @@ Our partner channels are carried on ***Digital Voice DMR*** with bridges and sys
 ## Digital Voice Australia
 |Name||DMR|XLX|M17|ASL|Peanut|
 |:--||:--|:--|:--|:--|:--|
-|VK Calling|:flag_au:|505| | | | |
+|VK Calling|505|:flag_au:| | | | | |
 |VK Nets|50500|:flag_au:| | | | |
 |VK Chats 1|50501|:flag_au:| | | | |
 |VK Chats 2|50502|:flag_au:| | | | |
@@ -61,8 +61,8 @@ Our partner channels are carried on ***Digital Voice DMR*** with bridges and sys
 
 DMR talkgroups listed here are carried on other networks:
 
-|Name|DMR|XLX|M17|Allstar|Peanut|SIP|
-|:--|:--|:--|:--|:--|:--|:--|
+|Name||DMR|XLX|M17|Allstar|Peanut|SIP|
+|:--||:--|:--|:--|:--|:--|:--|
 |Brandmeister 530||BM 530|XLX299-B :material-shield:| | | |
 |Active Elements||BM 53085 |XLX299-S :material-shield:| | | |
 |ANZEL Echolink Network|| |XLX299-H :material-shield:| | | |
