@@ -59,5 +59,5 @@ Extensions on other services returned by the NZSIP directory are automatically p
 
 See our Phone Configuration guide for how to configure the directory on your specific phone.
 
-Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying `http://directory.nzsip.nz/cisco/directory` as the Directory URL in your phone configuration file.
+Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying `http://mmd.dvdmr.org/directory` as the Directory URL in your phone configuration file.
 
