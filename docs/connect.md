@@ -6,11 +6,13 @@ Digital Voice New Zealand is a founding partner of the wider *Digital Voice* rad
 
 Our Digital Voice New Zealand (530\*) talk groups are also bridged to the FreeDMR network.
 
-For more details on connecting to the Digital Voice New Zealand DMR server....
+For more details on connecting to the Digital Voice New Zealand DMR server see [DVNZ DMR](dvdmr/index.md) documentation.
 
 ## Voice Over IP
 
 Digital Voice New Zealand operates the NZSIP IP telephone network;  a Voice Over IP phone networ for amatuer radio operators, and access to an extended network of over 5,000 extensions through direct dial links to Amatuer Wire and Hams over IP.
+
+See our [Channels Page](channels.md) for the SIP extensions to dial for our various channels &amp; talkgroups.
 
 
 ## XLX (D-Star and System Fusion)
