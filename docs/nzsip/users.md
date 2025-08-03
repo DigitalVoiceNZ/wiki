@@ -33,19 +33,50 @@ NZSIP utilises 5 digit numbers for all our extensions, we use the following numb
 |623xx|Asia Extensions|world.nzsip.nz|
 |69xxx|Services, Conferences &amp; Bridges|world.nzsip.nz|
 |+577\*|Inter Exchange Trunk - ***Hams Over IP***| |
-|+910\*|Inter Exchange Trunk - ***Amatuer Wire***| |
+|+910\*|Inter Exchange Trunk - ***Amateur Wire***| |
 
 
 See our [Devices](devices/index.md) page for information on configuring various phones, systems and software with NZSIP.
 
+## Network Services
+
+Test and local service numbers:
+
+* \*43 – Echo Test
+* \*60 – Speaking Clock
+* \*68 – Wake Up Calls
+* \*97 – My Voicemail
+* \*65 – Speak Your Exten Number
+
+### Other services to try:
+
+* 69200 - Amateur Radio News Services Playout 
+* 69199 - Digital Voice DMR Worldwide Talkgroup Bridge
+
+
+
 ## Direct Dial
 
-NZSIP is interconnected with both Hams Over IP and Amatuer Wire.
+NZSIP is interconnected with both Hams Over IP and Amateur Wire.
 
-* ***Hams Over IP*** prefix the HoIP number with +577 when dialing from NZSIP.
-* ***Amatuer Wire*** prefix the Amatuer Wire number with +910 when dialing from NZSIP.
+NZSIP numbers can be dialled from either Hams Over IP or tuer Wire by prefixing the NZSIP number with *640*.
 
-NZSIP numbers can be dialled from either Hams Over IP or Amatuer Wire by prefixing the NZSIP number with +640.
+When dialling other services your caller ID information will be automatically prefixed with the necessary information for the other party to return the call to the number they missed.  Additionally your name will be prefixed with `NZSIP-`.
+
+### Hams Over IP
+
+You can phone Hams Over IP extensions by prefixing the number with *577*.
+
+You can find the Hams Over IP phone book on their [website](https://hamsoverip.com)
+
+
+### Amateur Wire
+
+You can phone Hams Over IP extensions by prefixing the number with *910*.
+
+You can find the Amateur Wire phone boo on their [website](https://amateurwire.org/)
+
+
 
 ## LDAP Directory
 
@@ -58,6 +89,8 @@ The global directory can be searched using `dc=nzsip, dc=nz`.   The Organisation
 Extensions on other services returned by the NZSIP directory are automatically prefixed with the correct dialing code to reach that particular network.
 
 See our Phone Configuration guide for how to configure the directory on your specific phone.
+
+### Cisco XML Directory
 
 Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying `http://mmd.dvdmr.org/directory` as the Directory URL in your phone configuration file.
 
