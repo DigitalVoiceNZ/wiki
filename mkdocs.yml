@@ -11,7 +11,10 @@ extra_css:
   - extra.css
 
 nav:
-  - Home: index.md
+  - Home: 
+    - Welcome: index.md
+    - Connect: connect.md
+    - Channels: channels.md
   - NZSIP: 
     - About: nzsip/index.md
     - User Guide: nzsip/users.md
@@ -25,9 +28,6 @@ nav:
       - About: dvdmr/index.md
       - Setup Guide: dvdmr/guides/index.md
     - FreeDMR: freedmr/index.md
-  - Our Network:
-    - Connect: connect.md
-    - Channels: channels.md
   - Resources: 
     - Index: resources/index.md
     - Reflectors: resources/reflectors.md
