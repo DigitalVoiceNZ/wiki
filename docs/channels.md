@@ -2,7 +2,7 @@
 
 |Name||DMR|XLX|M17|Allstar|Peanut|SIP|
 |:--||:--|:--|:--|:--|:--|:--|
-|NZ Calling|:flag_nz:|530|XLX299-B|M17-NZD-B|511781| |
+|NZ Calling|:flag_nz:|530|XLX299-B|M17-NZD-B|511781|XRF299B|
 |NZ Region 1|:flag_nz:|5301| | | | |
 |NZ Region 2|:flag_nz:|5302|XLX299-F|M17-NZD-F| | |
 |NZ Region 3|:flag_nz:|5303| | | | |
@@ -12,9 +12,9 @@
 |NZ Branch 11|:flag_nz:|53011| | | | |
 |NZ Branch 27|:flag_nz:|53027| | | | |
 |NZ Whangarei Club|:flag_nz:|53028| | | |
-|NZ Chit Chat|:flag_nz:|53029|XLX299-X|M17-NZD-K| | | |
+|NZ Chit Chat|:flag_nz:|53029|XLX299-X|M17-NZD-K| | |XRF299K|
 |NZ Hawkes Bay|:flag_nz:|53067| | | | |
-|NZ R.O.A.R (Rotarians)|:flag_nz:|53080|XLX299-R| | | |
+|NZ R.O.A.R (Rotarians)|:flag_nz:|53080|XLX299-R| | |XRF299R|
 |NZ DVNZ-UK|::|53085|XLX299-U| |511780| |
 |Caribbean TG969|:flag_nz:|53096|XLX299-G|M17-NZD-G| | |
 |eXperimental AI|:globe_with_meridians:|333|XLX299-X| | | |
@@ -50,11 +50,11 @@ Our partner channels are carried on ***Digital Voice DMR*** with bridges and sys
 ## Digital Voice Australia
 |Name||DMR|XLX|M17|ASL|Peanut|
 |:--||:--|:--|:--|:--|:--|
-|VK Calling|505|:flag_au:| | | | | |
-|VK Nets|50500|:flag_au:| | | | |
-|VK Chats 1|50501|:flag_au:| | | | |
-|VK Chats 2|50502|:flag_au:| | | | |
-|VK Chats 3|50503|:flag_au:| | | | |
+|VK Calling|:flag_au:|505| | | | | |
+|VK Nets|:flag_au:|50500| | | | |
+|VK Chats 1|:flag_au:|50501| | | | |
+|VK Chats 2|:flag_au:|50502| | | | |
+|VK Chats 3|:flag_au:|50503| | | | |
 
 
 # Other Networks
@@ -64,11 +64,12 @@ DMR talkgroups listed here are carried on other networks:
 |Name||DMR|XLX|M17|Allstar|Peanut|SIP|
 |:--||:--|:--|:--|:--|:--|:--|
 |Brandmeister 530||BM 530|XLX299-B :material-shield:| | | |
-|Active Elements||BM 53085 |XLX299-S :material-shield:| | | |
+|Active Elements||BM 53085 |XLX299-S :material-shield:| |XRF299S| |
 |ANZEL Echolink Network|| |XLX299-H :material-shield:| | | |
 |Get On Air|| |XLX299-M :material-shield:| | | |
 |ZL TRBO|| |XLX299-O :material-shield:| | | |
 |XLX Worldwide|:globe_with_meridians:| |XLX299-A :material-shield:| | | | |
+|VK Hub|:flag_au:| |XLX299-V :material-shield:| | | |XRF299V|
 
 
 
