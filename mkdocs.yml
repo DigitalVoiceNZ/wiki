@@ -1,6 +1,9 @@
 site_name: DVNZ Docs
 theme:
   name: material
+  logo: assets/logo.png
+  palette:
+    scheme: slate
   features:
     - navigation.tabs
 

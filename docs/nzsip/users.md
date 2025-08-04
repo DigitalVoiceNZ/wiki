@@ -15,10 +15,17 @@ The SIP server will be either one of nzsip.nz or world.nzsip.nz depending upon w
 
 See our [Device Configuration Guide](devices/index.md) for specific information relevant to various devices, contributed by our community.
 
+
 ## Extension Status
 
 You can view the status of the extensions directly connected to our network at our [multi-exchange BLF indicator](https://mmd.dvdmr.org).
 
+## Exchanges
+
+NZSIP currently operates 2 exchanges:
+
+* Oceania (AU/NZ) - nzsip.nz
+* Worldwide - world.nzsip.nz
 
 ## Numbering Plan
 
@@ -71,7 +78,7 @@ Test and local service numbers:
 
 NZSIP is interconnected with both Hams Over IP and Amateur Wire.
 
-NZSIP numbers can be dialled from either Hams Over IP or tuer Wire by prefixing the NZSIP number with *640*.
+NZSIP numbers can be dialled from either Hams Over IP or Amateur Wire by prefixing the NZSIP number with *640*.
 
 When dialling other services your caller ID information will be automatically prefixed with the necessary information for the other party to return the call to the number they missed.  Additionally your name will be prefixed with `NZSIP-`.
 

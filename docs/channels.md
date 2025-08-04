@@ -2,7 +2,6 @@
 
 |Name||DMR|XLX|M17|Allstar|Peanut|SIP|
 |:--||:--|:--|:--|:--|:--|:--|
-|XLX Worldwide|:globe_with_meridians:| |XLX299-A| | | | |
 |NZ Calling|:flag_nz:|530|XLX299-B|M17-NZD-B|511781| |
 |NZ Region 1|:flag_nz:|5301| | | | |
 |NZ Region 2|:flag_nz:|5302|XLX299-F|M17-NZD-F| | |
@@ -45,8 +44,8 @@ Our partner channels are carried on ***Digital Voice DMR*** with bridges and sys
 
 |Name||DMR|XLX|M17|ASL|Peanut|
 |:--||:--|:--|:--|:--|:--|
-|Pride Network|:globe_with_meridians:|969| | | | |
-|M17 Project|:globe_with_meridians:|9517| | | | |
+|Pride Network|:globe_with_meridians:|969|XLX432-D|M17-432-D| | |
+|M17 Project|:globe_with_meridians:|9517|XLX432-C|M17-432-C| | |
 
 ## Digital Voice Australia
 |Name||DMR|XLX|M17|ASL|Peanut|
@@ -69,5 +68,7 @@ DMR talkgroups listed here are carried on other networks:
 |ANZEL Echolink Network|| |XLX299-H :material-shield:| | | |
 |Get On Air|| |XLX299-M :material-shield:| | | |
 |ZL TRBO|| |XLX299-O :material-shield:| | | |
+|XLX Worldwide|:globe_with_meridians:| |XLX299-A :material-shield:| | | | |
+
 
 
