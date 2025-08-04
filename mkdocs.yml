@@ -9,7 +9,7 @@ theme:
     - navigation.indexes
 
 extra_css:
-  - extra.css
+  - assets/extra.css
 
 nav:
   - Home: 
