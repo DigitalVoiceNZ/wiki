@@ -11,7 +11,7 @@ email with the following details:
 
 Your device *should* send registration events;  this is what tells NZSIP where to reach your phone.
 
-The SIP server will be either one of nzsip.nz or world.nzsip.nz depending upon which region you are located in.
+The SIP server will be either one of `nzsip.nz` or `world.nzsip.nz` depending upon which region you are located in.
 
 See our [Device Configuration Guide](devices/index.md) for specific information relevant to various devices, contributed by our community.
 
@@ -24,8 +24,8 @@ You can view the status of the extensions directly connected to our network at o
 
 NZSIP currently operates 2 exchanges:
 
-* Oceania (AU/NZ) - nzsip.nz
-* Worldwide - world.nzsip.nz
+* Oceania (AU/NZ) - `nzsip.nz`
+* Worldwide - `world.nzsip.nz`
 
 ## Numbering Plan
 
@@ -69,10 +69,10 @@ Test and local service numbers:
 
 ### Other services to try:
 
-* 69200 - Amateur Radio News Services Playout 
-* 69199 - Digital Voice DMR Worldwide Talkgroup Bridge
-
-
+* 69199 - Amateur Radio News Services Playout 
+* 69200 - Digital Voice DMR Worldwide Talkgroup Bridge (TG 90,91,92,333,666)
+* 59801 - IVR Adventure Game
+* 59802 - Your Call is Important to Us (Menu Maze Game)
 
 ## Direct Dial
 
