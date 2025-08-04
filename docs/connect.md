@@ -24,14 +24,29 @@ The XLX reflector features rooms and bridges to the Digital Voice DMR network, s
 
 ## M17 
 
-...
+... 
 
 
-## AllStar
+## AllStarLink
 
-...
+AllStarLink is a network of Amateur Radio repeaters, remote base stations and hot spots accessible to each other via Voice over Internet Protocol. AllStarLink runs on a dedicated computer (including the Rasperry Pi) that you host at your home, radio site or computer center. It is based on the open source Asterisk PBX running the `app_rpt` application.
+
+AllStarLink is also used within the DVNZ network to provide telephony to radio bridges.
+
+For more information on getting up and running with AllStar consult the [AllStarLink](https://www.allstarlink.org/) website.
+
+Our AllStar node numbers are listed in the [Channels Page](channels.md)
+
+
 
 ## Peanut
 
-...
+The Peanut project allows HAM radio enthusiasts to communicate with other amateurs worldwide using an Android device, network radio, or Windows PC. It supports several digital voice systems, including D-Star, Fusion, DMR, and M17. Peanut is completely free and exclusively for licensed HAM radio operators.
+
+You can find more at the [Peanut Project](https://peanut.pa7lim.nl)
+
+You can find the Digital Voice New Zealand Peanut rooms in the master rooms list; they all begin with ***XRF299***.
+
+
+
 
