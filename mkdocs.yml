@@ -31,7 +31,13 @@ nav:
     - FreeDMR: freedmr/index.md
   - Resources: 
     - Index: resources/index.md
-    - Reflectors: resources/reflectors.md
+    - Software: resources/downloads.md
+    - Concepts:
+      - Reflectors: resources/reflectors.md
+      - VoIP Introduction: resources/voip.md
+    - Guides:
+      - Pi-Star: resources/guides/pistar.md
+
 
 
 
