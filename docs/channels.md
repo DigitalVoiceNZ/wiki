@@ -15,9 +15,9 @@
 |NZ Chit Chat|:flag_nz:|53029|XLX299-X|M17-NZD-K| | | |
 |NZ Hawkes Bay|:flag_nz:|53067| | | | |
 |NZ R.O.A.R (Rotarians)|:flag_nz:|53080|XLX299-R| | | |
-|NZ DVNZ-UK|:flag_nz:|53085|XLX299-U| |511780| |
+|NZ DVNZ-UK|::|53085|XLX299-U| |511780| |
 |Caribbean TG969|:flag_nz:|53096|XLX299-G|M17-NZD-G| | |
-|eXperimental AI|:globe_with_meridians:| |XLX299-X| | | |
+|eXperimental AI|:globe_with_meridians:|333|XLX299-X| | | |
 |Waikato AREC|:flag_nz:| |XLX299-Y| | | |
 
 All DMR Talkgroups listed above are available on both our ***Digital Voice Downunder DMR*** network and on FreeDMR.
@@ -44,7 +44,7 @@ Our partner channels are carried on ***Digital Voice DMR*** with bridges and sys
 
 |Name||DMR|XLX|M17|ASL|Peanut|
 |:--||:--|:--|:--|:--|:--|
-|Pride Network|:globe_with_meridians:|969|XLX432-D|M17-432-D| | |
+|Pride Network|:globe_with_meridians:|969|XLX432-D|M17-432-D|27154| |
 |M17 Project|:globe_with_meridians:|9517|XLX432-C|M17-432-C| | |
 
 ## Digital Voice Australia
