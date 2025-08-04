@@ -29,6 +29,8 @@ nav:
       - About: dvdmr/index.md
       - Setup Guide: dvdmr/guides/index.md
     - FreeDMR: freedmr/index.md
+  - XLX299:
+    - About: xlx/index.md
   - Resources: 
     - Index: resources/index.md
     - Software: resources/downloads.md
