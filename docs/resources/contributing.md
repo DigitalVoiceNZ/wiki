@@ -1,5 +1,6 @@
 # Contributing to DVNZ Documents
 
+
 We welcome contributions from our Digital Voice New Zealand community.
 
 If you're experienced with mkdocs and git, please fork the github repository at `http://github.com/digitalVoiceNZ/wiki/` and submit your contributions as pull requests.
@@ -38,5 +39,7 @@ Like this
 
 ---
 
+
+All contributions must be made available under a Creative Commons Share and Share-A-Like license compatible with our own.
 
 
