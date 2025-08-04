@@ -16,5 +16,7 @@ If you'd like to contribute please read on.
 
 Alternatively you can attach your contribution to an issue in this repository and it will be reviewed and included.
 
+If you have any corrections or suggestions please feel free to raise an issue against this repository.
+
 
 
