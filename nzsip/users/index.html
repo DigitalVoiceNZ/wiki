@@ -177,17 +177,18 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
-        
-  
-  
     
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
   
   Home
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -251,26 +252,6 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../connect/" class="md-tabs__link">
-          
-  
-  
-  Our Network
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
         <a href="../../resources/" class="md-tabs__link">
           
   
@@ -321,9 +302,23 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -332,7 +327,88 @@
   </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Welcome
+    
+  </span>
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../connect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Connect
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../channels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Channels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -943,7 +1019,7 @@
   
   
   <span class="md-ellipsis">
-    Our Network
+    Resources
     
   </span>
   
@@ -953,100 +1029,6 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Our Network
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../connect/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Connect
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../channels/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Channels
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Resources
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Resources
           </label>
@@ -1289,15 +1271,15 @@ email with the following details:</p>
 <li>Secret - this is the secret/password used for authenticating your SIP device.</li>
 </ul>
 <p>Your device <em>should</em> send registration events;  this is what tells NZSIP where to reach your phone.</p>
-<p>The SIP server will be either one of nzsip.nz or world.nzsip.nz depending upon which region you are located in.</p>
+<p>The SIP server will be either one of <code>nzsip.nz</code> or <code>world.nzsip.nz</code> depending upon which region you are located in.</p>
 <p>See our <a href="../devices/">Device Configuration Guide</a> for specific information relevant to various devices, contributed by our community.</p>
 <h2 id="extension-status">Extension Status</h2>
 <p>You can view the status of the extensions directly connected to our network at our <a href="https://mmd.dvdmr.org">multi-exchange BLF indicator</a>.</p>
 <h2 id="exchanges">Exchanges</h2>
 <p>NZSIP currently operates 2 exchanges:</p>
 <ul>
-<li>Oceania (AU/NZ) - nzsip.nz</li>
-<li>Worldwide - world.nzsip.nz</li>
+<li>Oceania (AU/NZ) - <code>nzsip.nz</code></li>
+<li>Worldwide - <code>world.nzsip.nz</code></li>
 </ul>
 <h2 id="numbering-plan">Numbering Plan</h2>
 <p>NZSIP utilises 5 digit numbers for all our extensions, we use the following numbering plan:</p>
@@ -1422,8 +1404,10 @@ email with the following details:</p>
 </ul>
 <h3 id="other-services-to-try">Other services to try:</h3>
 <ul>
-<li>69200 - Amateur Radio News Services Playout </li>
-<li>69199 - Digital Voice DMR Worldwide Talkgroup Bridge</li>
+<li>69199 - Amateur Radio News Services Playout </li>
+<li>69200 - Digital Voice DMR Worldwide Talkgroup Bridge (TG 90,91,92,333,666)</li>
+<li>59801 - IVR Adventure Game</li>
+<li>59802 - Your Call is Important to Us (Menu Maze Game)</li>
 </ul>
 <h2 id="direct-dial">Direct Dial</h2>
 <p>NZSIP is interconnected with both Hams Over IP and Amateur Wire.</p>
