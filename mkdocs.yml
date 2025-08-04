@@ -37,6 +37,8 @@ nav:
       - VoIP Introduction: resources/voip.md
     - Guides:
       - Pi-Star: resources/guides/pistar.md
+    - Contributing: resources/contributing.md
+
 
 
 
