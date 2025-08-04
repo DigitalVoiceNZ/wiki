@@ -26,6 +26,9 @@
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
       
 
 
@@ -55,7 +58,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -80,8 +88,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="DVNZ Docs" class="md-header__button md-logo" aria-label="DVNZ Docs" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -105,8 +112,8 @@
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -300,8 +307,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="DVNZ Docs" class="md-nav__button md-logo" aria-label="DVNZ Docs" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     DVNZ Docs
@@ -469,6 +475,15 @@
   <a href="#extension-status" class="md-nav__link">
     <span class="md-ellipsis">
       Extension Status
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exchanges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exchanges
     </span>
   </a>
   
@@ -1135,6 +1150,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#exchanges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exchanges
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#numbering-plan" class="md-nav__link">
     <span class="md-ellipsis">
       Numbering Plan
@@ -1269,6 +1293,12 @@ email with the following details:</p>
 <p>See our <a href="../devices/">Device Configuration Guide</a> for specific information relevant to various devices, contributed by our community.</p>
 <h2 id="extension-status">Extension Status</h2>
 <p>You can view the status of the extensions directly connected to our network at our <a href="https://mmd.dvdmr.org">multi-exchange BLF indicator</a>.</p>
+<h2 id="exchanges">Exchanges</h2>
+<p>NZSIP currently operates 2 exchanges:</p>
+<ul>
+<li>Oceania (AU/NZ) - nzsip.nz</li>
+<li>Worldwide - world.nzsip.nz</li>
+</ul>
 <h2 id="numbering-plan">Numbering Plan</h2>
 <p>NZSIP utilises 5 digit numbers for all our extensions, we use the following numbering plan:</p>
 <table>
@@ -1397,7 +1427,7 @@ email with the following details:</p>
 </ul>
 <h2 id="direct-dial">Direct Dial</h2>
 <p>NZSIP is interconnected with both Hams Over IP and Amateur Wire.</p>
-<p>NZSIP numbers can be dialled from either Hams Over IP or tuer Wire by prefixing the NZSIP number with <em>640</em>.</p>
+<p>NZSIP numbers can be dialled from either Hams Over IP or Amateur Wire by prefixing the NZSIP number with <em>640</em>.</p>
 <p>When dialling other services your caller ID information will be automatically prefixed with the necessary information for the other party to return the call to the number they missed.  Additionally your name will be prefixed with <code>NZSIP-</code>.</p>
 <h3 id="hams-over-ip">Hams Over IP</h3>
 <p>You can phone Hams Over IP extensions by prefixing the number with <em>577</em>.</p>
