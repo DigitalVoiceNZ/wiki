@@ -1,4 +1,7 @@
-
+---
+authors:
+- vk2way
+---
 # Connecting a Cisco 7940/60 to NZSIP
 
 "The 79 series was a workhorse of the early 2000s office, a fantastic phone, my all time favourite, but setting it up is not for the feint of heart" - VK2WAY.
