@@ -1684,15 +1684,19 @@ email with the following details:</p>
 <p>You can find the Hams Over IP phone book on their <a href="https://hamsoverip.com">website</a></p>
 <h3 id="amateur-wire">Amateur Wire</h3>
 <p>You can phone Hams Over IP extensions by prefixing the number with <em>910</em>.</p>
-<p>You can find the Amateur Wire phone boo on their <a href="https://amateurwire.org/">website</a></p>
+<p>You can find the Amateur Wire phone book on their <a href="https://amateurwire.org/">website</a></p>
 <h2 id="ldap-directory">LDAP Directory</h2>
-<p>Our LDAP directory is available at ldap://directory.nzsip.nz.</p>
+<p>Our LDAP directory is at the same hostname as your exchange,  you are encouraged to use the same LDAP directory as exchange you were allocated.   These directories are mirroed copies of each other and the content will be the same:</p>
+<ul>
+<li>ldap://nzsip.nz</li>
+<li>ldap://world.nzsip.nz</li>
+</ul>
 <p>Anonymous bind is supported and allows searching of the NZSIP or global ham phone directories.</p>
 <p>The global directory can be searched using <code>dc=nzsip, dc=nz</code>.   The Organisational units <code>ou=nzsip</code> or <code>ou=external</code> can be prefixed to the base DN to limit your search within the NZSIP or global directories.</p>
 <p>Extensions on other services returned by the NZSIP directory are automatically prefixed with the correct dialing code to reach that particular network.</p>
 <p>See our Phone Configuration guide for how to configure the directory on your specific phone.</p>
 <h3 id="cisco-xml-directory">Cisco XML Directory</h3>
-<p>Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying <code>http://mmd.dvdmr.org/directory</code> as the Directory URL in your phone configuration file.</p>
+<p>Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying <code>http://services.nzsip.nz/directory</code> as the Directory URL in your phone configuration file.</p>
 
 
 
