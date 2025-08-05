@@ -15,7 +15,7 @@
 |NZ Chit Chat|:flag_nz:|53029|XLX299-X|M17-NZD-K| |XRF299K| |
 |NZ Hawkes Bay|:flag_nz:|53067| | | | |
 |NZ R.O.A.R (Rotarians)|:flag_nz:|53080|XLX299-R| |XRF299R| |
-|NZ DVNZ-UK|::|53085|XLX299-U| |511780| |
+|NZ DVNZ-UK|:flag_uk:|53085|XLX299-U| |511780| |
 |Caribbean TG969|:flag_nz:|53096|XLX299-G|M17-NZD-G| | |
 |eXperimental AI|:globe_with_meridians:|333|XLX299-X| | | |
 |Waikato AREC|:flag_nz:| |XLX299-Y| | | |
