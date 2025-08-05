@@ -93,14 +93,17 @@ You can find the Hams Over IP phone book on their [website](https://hamsoverip.c
 
 You can phone Hams Over IP extensions by prefixing the number with *910*.
 
-You can find the Amateur Wire phone boo on their [website](https://amateurwire.org/)
+You can find the Amateur Wire phone book on their [website](https://amateurwire.org/)
 
 
 
 
 ## LDAP Directory
 
-Our LDAP directory is available at ldap://directory.nzsip.nz.
+Our LDAP directory is at the same hostname as your exchange,  you are encouraged to use the same LDAP directory as exchange you were allocated.   These directories are mirroed copies of each other and the content will be the same:
+
+* ldap://nzsip.nz
+* ldap://world.nzsip.nz
 
 Anonymous bind is supported and allows searching of the NZSIP or global ham phone directories.
 
@@ -112,5 +115,6 @@ See our Phone Configuration guide for how to configure the directory on your spe
 
 ### Cisco XML Directory
 
-Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying `http://mmd.dvdmr.org/directory` as the Directory URL in your phone configuration file.
+Our directory is also available as a Cisco XML Application for use with older Cisco phones expecting Cisco Call Manager;  this directory application can be used by specifying `http://services.nzsip.nz/directory` as the Directory URL in your phone configuration file.
+
 
