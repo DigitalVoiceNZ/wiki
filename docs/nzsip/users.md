@@ -1,5 +1,17 @@
 # NZSIP User Information
 
+## Configuration Summary
+
+* SIP Server
+  * `nzsip.nz` (NZ/AU subscribers) 
+  * `world.nzsip.nz` (International subscribers)
+  
+* LDAP Directory
+  * `ldap://nzsip.nz`
+  * `ldap://world.nzsip.nz`
+  * Base DN: `dc=nzsip,dc=nz`
+
+
 ## Configuring your Device
 
 You can utilise any SIP phone or device as an extension on NZSIP.   On provisioning of your extension you will receive an
