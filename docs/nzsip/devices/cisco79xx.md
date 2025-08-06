@@ -25,7 +25,7 @@ proxy1_port: 5060
 line1_authname: "EXTENSION";
 line1_password: "SECRET";
 
-directory_url: "http://mmd.dvdmr.org/directory"; 
+directory_url: "http://services.nzsip.nz/directory";
 logo_url: "http://services.nzsip.nz/static/nzsip.bmp";
 
 ```
