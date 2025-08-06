@@ -543,6 +543,8 @@
       
         
       
+        
+      
     
     
     
@@ -584,6 +586,29 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../nzsip/devices/allstar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AllStarLink
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -1308,14 +1333,14 @@
 <p>Digital Voice DMR is not yet listed in the Pi-Star hosts file; to be able to select it from the Pi-star menu you will need to add some custom local hosts.</p>
 <p>Modifying Pi-Star &amp; WPSD <code>DMR_Hosts.txt</code> file for the DVDU servers.</p>
 <p>1) SSH into you Pi-Star
-2) Make the filesystem read/write for Pi-Star. (This step not needed for WPSD)</p>
-<pre><code>rpi-rw
-</code></pre>
-<p>3) Edit the <code>DMR_Hosts.txt</code> file:</p>
-<pre><code>sudo nano /root/DMR_Hosts.txt
-</code></pre>
+2) Make the filesystem read/write for Pi-Star. (This step not needed for WPSD)
+<div class="highlight"><pre><span></span><code>rpi-rw
+</code></pre></div>
+3) Edit the <code>DMR_Hosts.txt</code> file:
+<div class="highlight"><pre><span></span><code>sudo nano /root/DMR_Hosts.txt
+</code></pre></div></p>
 <p>Scroll to the end the file and added the following server info between the two lines of hashes like below</p>
-<pre><code>##############################################################################################
+<div class="highlight"><pre><span></span><code>##############################################################################################
 #
 #                               Custom DMR Hosts
 #
@@ -1326,11 +1351,11 @@ FD_DVDU_DV-AU                   5053    dmr.dvau.au                     passw0rd
 FD_DVDU_DV-NZ                   5300    dmr.dvnz.nz                     passw0rd        62031
 FD_DVDU_VKRadio-AU              5052    dmr.vkradio.com                 passw0rd        62031
 ##############################################################################################
-</code></pre>
+</code></pre></div>
 <p>Use <code>ctrl-o</code> to save and <code>ctrl-x</code> to exit.</p>
 <p>4) Update the Pi Star hosts</p>
-<pre><code>sudo bash /usr/local/sbin/HostFilesUpdate.sh
-</code></pre>
+<div class="highlight"><pre><span></span><code>sudo bash /usr/local/sbin/HostFilesUpdate.sh
+</code></pre></div>
 <p>Now you should be able to select one the DVDU servers from the drop down menu on the Configuration page for single host mode aka MMDVMHost.</p>
 <p>TNX to Dale (<a href="https://www.qrz.com/db/VK5TUX">VK5TUX</a>) for the instructions for Pi-Star, and Dan (<a href="https://www.qrz.com/db/ZL4ER">ZL4ER</a>) for comfirming this Howto also works on WPSD.</p>
 <h2 id="pi-star-dmr-gateway">Pi-Star / DMR Gateway</h2>
@@ -1338,7 +1363,7 @@ FD_DVDU_VKRadio-AU              5052    dmr.vkradio.com                 passw0rd
 <p>If you are using DMR Gateway on your Pi-Star you can run multiple simultanious DMR networks.   Log into the web gui of you Pi-Star in you web browser and go to [Configuration] =&gt; [Expert] =&gt; Full Edit: [DMR GW].</p>
 <p>If you are running DMR Gateway outside of Pi-Star or with DMR Only Hotspot update your DMRGateway.ini configuration file with a block for Digital Voice DMR.</p>
 <p>Please don’t just copy and paste what below, it just sample. Scroll down the file to the following and change what is mentioned to change.</p>
-<pre><code>[DMR Network 2]
+<div class="highlight"><pre><span></span><code>[DMR Network 2]
 Enabled=1
 Address=dmr.dvnz.nz
 Port=62031 # CHANGE TO THIS
@@ -1351,7 +1376,7 @@ Id=1234567 # CHANGE THIS TO YOUR DMRID
 Name=DVNZ_DMR-NZ
 Location=0
 Options=&quot;TS2=90,91,92,530,5301,5302,5303,5304,5304,5305,50500;VOICE=0;LANG=en_GB;TIMER=15&quot; # CHANGE OPTIONS TO YOUR NEEDS
-</code></pre>
+</code></pre></div>
 <p>press [Apply] and should be ready to go</p>
 <p>Notes: The sample above has DVAU DMR routing all it’s traffic over TS2 with the way the Rewrite rules are configured on a duplex HS. Read more about <a href="https://github.com/g4klx/DMRGateway/wiki/Rewrite-Rules">rewrite rules</a>.</p>
 <p>TNX to Dale (<a href="https://www.qrz.com/db/VK5TUX">VK5TUX</a>) for the instructions for Pi-Star &amp; DMR Gateway and VK2WAY for additional information around DMR Only Hotspot.</p>

@@ -548,6 +548,8 @@
       
         
       
+        
+      
     
     
     
@@ -589,6 +591,29 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../allstar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AllStarLink
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -1284,13 +1309,16 @@
 
 
 <h1 id="connecting-a-cisco-794060-to-nzsip">Connecting a Cisco 7940/60 to NZSIP</h1>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
 <p>"The 79 series was a workhorse of the early 2000s office, a fantastic phone, my all time favourite, but setting it up is not for the feint of heart" - VK2WAY.</p>
+</div>
 <p>Originally these phones were tightly locked down to the proprietary Cisco telephony platform, however when they were reaching end of life Cisco made a SIP firmware available for them, giving them a second life in small offices.  </p>
-<p>There are two main ways of configuring the phone; the <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/3_0/english/administration/guide/ver3_0/maintain.html">Cisco 7940/7960 Administrator Manual</a> for the phone details much of the technical information and parameters for these phones.</p>
+<p>There are two main ways of configuring the phone; the <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/3_0/english/administration/guide/ver3_0/maintain.html">Cisco 7940/7960 Administrator Manual</a> for the phone details much of the technical information and parameters for these phones.  I (VK2WAY) have only used the TFTP method which is what is documented here.</p>
 <h2 id="tftp-boot">TFTP Boot</h2>
 <p>The Cisco 7940 requires changes to your DHCP server, running a tftp server and manually managing configuration files in order for the phone to event boot.  There are plenty of guides on how to install the SIP firmware and set up all the supporting software online.  I highly recommend this one from <a href="https://james-batchelor.com/index.php/2021/01/23/provisioning-a-cisco-7940-7960/">James Batchelor</a></p>
 <p>The settings in either your SIPxxxxxxxx.cnf or SIPDefault.cnf should include the following:</p>
-<pre><code>proxy1_address: &quot;EXCHANGE HOSTNAME&quot;;
+<div class="highlight"><pre><span></span><code>proxy1_address: &quot;EXCHANGE HOSTNAME&quot;;
 proxy1_port: 5060
 
 line1_authname: &quot;EXTENSION&quot;;
@@ -1298,11 +1326,13 @@ line1_password: &quot;SECRET&quot;;
 
 directory_url: &quot;http://services.nzsip.nz/directory&quot;;
 logo_url: &quot;http://services.nzsip.nz/static/nzsip.bmp&quot;;
-
-</code></pre>
+</code></pre></div>
 <p>This is not an extensive list of settings needed by the phone, but other settings should be left with somewhat sensible defaults.
 The logo of course is option, but who wouldn't want their phone to say "Ham Phone NZSIP" with a silver fern?</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
 <p>Be sure to change the EXCHANGE HOSTNAME, EXTENSION and SECRET to those provided to you in your onboarding email.</p>
+</div>
 
 
 

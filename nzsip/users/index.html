@@ -567,6 +567,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Configuration Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sip-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      SIP Server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ldap-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDAP Directory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-dial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Direct Dial
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -645,7 +678,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#direct-dial" class="md-nav__link">
+  <a href="#direct-dial_1" class="md-nav__link">
     <span class="md-ellipsis">
       Direct Dial
     </span>
@@ -678,7 +711,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ldap-directory" class="md-nav__link">
+  <a href="#ldap-directory_1" class="md-nav__link">
     <span class="md-ellipsis">
       LDAP Directory
     </span>
@@ -729,6 +762,8 @@
       
         
       
+        
+      
     
     
     
@@ -770,6 +805,29 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devices/allstar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AllStarLink
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -1395,6 +1453,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Configuration Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sip-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      SIP Server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ldap-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDAP Directory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-dial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Direct Dial
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1473,7 +1564,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#direct-dial" class="md-nav__link">
+  <a href="#direct-dial_1" class="md-nav__link">
     <span class="md-ellipsis">
       Direct Dial
     </span>
@@ -1506,7 +1597,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ldap-directory" class="md-nav__link">
+  <a href="#ldap-directory_1" class="md-nav__link">
     <span class="md-ellipsis">
       LDAP Directory
     </span>
@@ -1547,18 +1638,36 @@
 
 <h1 id="nzsip-user-information">NZSIP User Information</h1>
 <h2 id="configuration-summary">Configuration Summary</h2>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>More information on each of these summaries can be found below, but here's the TL;DR section:</p>
+</div>
+<h3 id="sip-server">SIP Server</h3>
 <ul>
-<li>SIP Server</li>
-<li><code>nzsip.nz</code> (NZ/AU subscribers) </li>
-<li>
-<p><code>world.nzsip.nz</code> (International subscribers)</p>
+<li>SIP Server:<ul>
+<li><code>nzsip.nz</code> (NZ/AU subscribers) or</li>
+<li><code>world.nzsip.nz</code> (International subscribers)</li>
+</ul>
 </li>
-<li>
-<p>LDAP Directory</p>
+<li>Port: 5060</li>
+<li>Username: <em>your-extension-number</em></li>
+<li>Password: <em>your-secret</em></li>
+</ul>
+<h3 id="ldap-directory">LDAP Directory</h3>
+<ul>
+<li>LDAP Directory:<ul>
+<li><code>ldap://nzsip.nz</code> (NZ/AU subscribers) or </li>
+<li><code>ldap://world.nzsip.nz</code> (International Subscribers)</li>
+</ul>
 </li>
-<li><code>ldap://nzsip.nz</code></li>
-<li><code>ldap://world.nzsip.nz</code></li>
 <li>Base DN: <code>dc=nzsip,dc=nz</code></li>
+<li>Anonymous Bind</li>
+</ul>
+<h3 id="direct-dial">Direct Dial</h3>
+<ul>
+<li>to Hams Over IP: 577 <em>extension</em></li>
+<li>to Amateur Wire: 910 <em>extension</em></li>
+<li>from either: 640 <em>nzsip extension</em></li>
 </ul>
 <h2 id="configuring-your-device">Configuring your Device</h2>
 <p>You can utilise any SIP phone or device as an extension on NZSIP.   On provisioning of your extension you will receive an
@@ -1707,7 +1816,7 @@ email with the following details:</p>
 <li>59801 - IVR Adventure Game</li>
 <li>59802 - Your Call is Important to Us (Menu Maze Game)</li>
 </ul>
-<h2 id="direct-dial">Direct Dial</h2>
+<h2 id="direct-dial_1">Direct Dial</h2>
 <p>NZSIP is interconnected with both Hams Over IP and Amateur Wire.</p>
 <p>NZSIP numbers can be dialled from either Hams Over IP or Amateur Wire by prefixing the NZSIP number with <em>640</em>.</p>
 <p>When dialling other services your caller ID information will be automatically prefixed with the necessary information for the other party to return the call to the number they missed.  Additionally your name will be prefixed with <code>NZSIP-</code>.</p>
@@ -1717,7 +1826,7 @@ email with the following details:</p>
 <h3 id="amateur-wire">Amateur Wire</h3>
 <p>You can phone Hams Over IP extensions by prefixing the number with <em>910</em>.</p>
 <p>You can find the Amateur Wire phone book on their <a href="https://amateurwire.org/">website</a></p>
-<h2 id="ldap-directory">LDAP Directory</h2>
+<h2 id="ldap-directory_1">LDAP Directory</h2>
 <p>Our LDAP directory is at the same hostname as your exchange,  you are encouraged to use the same LDAP directory as exchange you were allocated.   These directories are mirroed copies of each other and the content will be the same:</p>
 <ul>
 <li>ldap://nzsip.nz</li>

@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../allstar/">
       
       
         <link rel="next" href="../cisco79xx/">
@@ -548,6 +548,8 @@
       
         
       
+        
+      
     
     
     
@@ -589,6 +591,29 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../allstar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AllStarLink
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -1228,7 +1253,7 @@
 <h1 id="connecting-asterisk-to-nzsip">Connecting Asterisk to NZSIP</h1>
 <p>If you intend to connect Asterisk to NZSIP it is recommended that you request an IAX2 extension.</p>
 <p>IAX2 is a more efficient protocol than SIP and allows better firewall traversal and plays more nicely with NAT.</p>
-<pre><code>[nzsip]
+<div class="highlight"><pre><span></span><code>[nzsip]
 host=&lt;YOUREXCHANGE&gt;
 username=&lt;YOUREXTENSION&gt;
 secret=&lt;YOURPASSWORD&gt;
@@ -1244,7 +1269,7 @@ context=from-nzsip
 forceencryption=no
 encryption=yes
 auth=md5
-</code></pre>
+</code></pre></div>
 <p>Ensure you update YOUREXCHANGE, YOUREXTENSION, YOURPASSWORD with the values provided to you when your extension was provisioned.</p>
 <p>You will require a dialplan context named [from-nzsip] to handle inbound calls on your NZSIP extension.</p>
 
