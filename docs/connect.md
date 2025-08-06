@@ -10,7 +10,7 @@ For more details on connecting to the Digital Voice New Zealand DMR server see [
 
 ## Voice Over IP
 
-Digital Voice New Zealand operates the NZSIP IP telephone network;  a Voice Over IP phone networ for amatuer radio operators, and access to an extended network of over 5,000 extensions through direct dial links to Amatuer Wire and Hams over IP.
+Digital Voice New Zealand operates the [NZSIP IP telephone network](nzsip/index.md);  a Voice Over IP phone networ for amatuer radio operators, and access to an extended network of over 5,000 extensions through direct dial links to Amatuer Wire and Hams over IP.
 
 See our [Channels Page](channels.md) for the SIP extensions to dial for our various channels &amp; talkgroups.
 
