@@ -1,6 +1,7 @@
 
 # Yealink SIP-T21P IP Phone
 
+This phone setup guide should be read in conjunction with our [NZSIP User Guide](../index.md).
 
 !!! note
     Firmware version 9.60.0.140 on hardware 7.0.0.60 was used for this guide
@@ -24,6 +25,11 @@
 
     Settings under CODECS and ADVANCED can be left at defaults.
 
+!!! warning
+    Be sure to update YOUR CALLSIGN, YOUR EXTENSION, YOUR SECRET and YOUR EXCHANGE settings to the values sent to you in your onboarding email.
+
 
 !!! note
     There is no way to integrate an online directory with this phone.
+
+
