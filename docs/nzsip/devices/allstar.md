@@ -71,9 +71,10 @@ If you'd like to welcome callers to your gateway with a greeting and instruction
 ```
 [asl-direct-dial]
 exten => _X.,1,Answer()
-;same => n,Playback(rpt/connected-to&rpt/node)
 same => n,Set(RPT_NODE=${EXTEN})
-same => n,Playback(custom/welcome&custom/dialled${EXTEN}&custom/ptt)
+same => n,Playback(custom/welcome)
+same => n,Playback(custom/dialled${EXTEN})
+same => n,Playback(custom/ptt)
 same => n,Playback(beep)
 same => n,rpt(${EXTEN},P)
 ```
@@ -94,21 +95,32 @@ If you'd like to create an IVR menu for multiple allstar nodes; here is an examp
 
 ```
 [asl-menu]
+; menu entry point
 exten => 200,1,Answer()
+
+; uninerruptable greeting
 same => n,Playback(custom/welcome-gateway)
+
+; interruptable menu; multiple items must be concatenated with
+; & so that they play as one task to be interrupted correcctly
 same => n(ivrloop),Background(custom/menu-dial-1&custom/menu-dial-2)
 same => n(ivrwait),WaitExten()
 
 ; The numbers to dial in the menu mapped to private node
-; via the above example announcements
+; via the block we created in the above example;  the parameters
+; are the private node; the first number before the comma 
+; is the menu option dialled.
 exten => 1,1,Goto(asl-direct-dial,1922,1)
 exten => 2,1,Goto(asl-direct-dial,1923,1)
 
-exten => *,1,Goto(tg-menu,200,ivrloop)
+; press * to repeat the menu
+exten => *,1,Goto(asl-menu,200,ivrloop)
 
+; invalid extension handler
 exten => i,1,Playback(custom/whatwasthat)
-same => n,Goto(tg-menu,200,ivrwait)
+same => n,Goto(asl-menu,200,ivrwait)
 
+; timeout handler
 exten => t,1,Playback(custom/whatwasthat)
 ```
 !!! note
