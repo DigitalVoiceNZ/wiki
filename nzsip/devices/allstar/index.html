@@ -677,9 +677,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#announcements-optional" class="md-nav__link">
+  <a href="#custom-announcements-optional" class="md-nav__link">
     <span class="md-ellipsis">
-      Announcements (Optional)
+      Custom Announcements (optional)
     </span>
   </a>
   
@@ -1347,9 +1347,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#announcements-optional" class="md-nav__link">
+  <a href="#custom-announcements-optional" class="md-nav__link">
     <span class="md-ellipsis">
-      Announcements (Optional)
+      Custom Announcements (optional)
     </span>
   </a>
   
@@ -1383,6 +1383,10 @@
 <h1 id="nzsip-allstarlink-bridges">NZSIP AllStarLink Bridges</h1>
 <p>AllStarLink provides a network of internet connected RF Nodes, Conferences and Bridges.  You can find out more on their <a href="https://allstarlink.org">website</a>.</p>
 <p>This guide is designed for those who would like to connect an AllStar node to the NZSIP network via a telephone bridge (with push to talk).</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This document is based on a working setup using ASL3.  The instructions should be backwards compatible with previous versions of ASL.</p>
+</div>
 <p>Request a new trunk from the <a href="https://helpdesk.nzsip.nz">NZSIP Helpdesk</a>.  Only one trunk is required per AllStar server; extensions will be routed to the trunk for each individual service or IVR menu you wish to provide.</p>
 <p>Setting up nodes on your AllStarLink server is beyond the scope of this document.</p>
 <div class="admonition success">
@@ -1393,6 +1397,7 @@
 <ul>
 <li>69333 and 69292 are NZSIP extensions routed across the example trunk.</li>
 <li>1923 and 1922 are Private Allstar Node numbers on the allstar node with assumed 'on-startup' connections to public allstar nodes.</li>
+<li>560023 and 560022 are Public Allstar Node numbers hosted on the same server as the private nodes.</li>
 </ul>
 <h2 id="create-a-asl-private-node">Create a ASL Private Node</h2>
 <p>Follow the ASL menu configuration tool prompts to add a new private node to your server.   You must give private nodes numbers in the range 1900-1999.  </p>
@@ -1421,14 +1426,23 @@ requirecalltoken=yes
 </div>
 <p>When handing calls off to your trunk NZSIP will use the extension number dialled; you will need a <code>from-nzsip</code> dialplan context to handle these calls and route them to your repeater nodes.</p>
 <h2 id="dialplan-context">Dialplan Context</h2>
-<p>In your <code>/etc/asterisk/custom/extensions.conf</code> create a <code>from-nzsip</code> dialplan context, this contains the extension mapping from NZSIP to your particualar nodes or services, this is essentially your mapping of numbers to allstar node, repeat the exten line for each number.</p>
+<p>In your <code>/etc/asterisk/custom/extensions.conf</code> create a <code>from-nzsip</code> dialplan context, this contains the extension mapping from NZSIP to your particualar nodes or services, this is essentially your mapping of numbers to allstar node, repeat the block line for each number.</p>
 <div class="highlight"><pre><span></span><code>[from-nzsip]
-exten =&gt; 69292,1,rpt(1922,P)
-exten =&gt; 69333,1,rpt(1923,P)
+exten =&gt; 69292,1,Playback(rpt/node)
+same =&gt; n,SayAlpha(560022)
+same =&gt; n,rpt(1922,P)
+
+exten =&gt; 69333,1,Playback(rpt/node)
+same =&gt; n,SayAlpha(560023)
+same =&gt; n,rpt(1923,P)
 </code></pre></div>
-<p>If you'd prefer us to route to a destination different from the extension number, please let us know in your trunk request.</p>
-<h2 id="announcements-optional">Announcements (Optional)</h2>
-<p>If you'd like to welcome callers to your gateway with a greeting and instructions; you can add a common block to use for all your extensions and play your announcements based on that node.   Add another context named <code>[asl-direct-dial]</code> to your <code>/etc/asterisk/custom/extensions.conf</code> file.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>We require AllStarLink numbers to identify themselves when they answer rather than droppig a user into a bridge with no instructions.  Update the <em>SayAlpha</em> lines in the above block to reflect the public node number that your private node connects to (560022 and 560023 in this example).</p>
+</div>
+<h2 id="custom-announcements-optional">Custom Announcements  (optional)</h2>
+<p>If you'd like to welcome callers to your gateway with a custom greeting and additional instructions; you can add a common block to use for all your extensions and play your announcements based on that node.    This also simplifies your inbound context by routing the calls through a common block.</p>
+<p>Add another context named <code>[asl-direct-dial]</code> to your <code>/etc/asterisk/custom/extensions.conf</code> file.</p>
 <div class="highlight"><pre><span></span><code>[asl-direct-dial]
 exten =&gt; _X.,1,Answer()
 same =&gt; n,Set(RPT_NODE=${EXTEN})
