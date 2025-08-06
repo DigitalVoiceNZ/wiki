@@ -54,19 +54,30 @@ When handing calls off to your trunk NZSIP will use the extension number dialled
 
 ## Dialplan Context
 
-In your `/etc/asterisk/custom/extensions.conf` create a `from-nzsip` dialplan context, this contains the extension mapping from NZSIP to your particualar nodes or services, this is essentially your mapping of numbers to allstar node, repeat the exten line for each number.
+In your `/etc/asterisk/custom/extensions.conf` create a `from-nzsip` dialplan context, this contains the extension mapping from NZSIP to your particualar nodes or services, this is essentially your mapping of numbers to allstar node, repeat the block line for each number.
+
 
 ```
 [from-nzsip]
-exten => 69292,1,rpt(1922,P)
-exten => 69333,1,rpt(1923,P)
+exten => 69292,1,Playback(rpt/node)
+same => n,SayAlpha(560022)
+same => n,rpt(1922,P)
+
+exten => 69333,1,Playback(rpt/node)
+same => n,SayAlpha(560023)
+same => n,rpt(1923,P)
 ```
 
-If you'd prefer us to route to a destination different from the extension number, please let us know in your trunk request.
+!!! warning
+    We require AllStarLink numbers to identify themselves when they answer rather than droppig a user into a bridge with no instructions.  Update the *SayAlpha* lines in the above block to reflect the public node number that your private node connects to (560022 and 560023 in this example).
 
-## Announcements (Optional)
 
-If you'd like to welcome callers to your gateway with a greeting and instructions; you can add a common block to use for all your extensions and play your announcements based on that node.   Add another context named `[asl-direct-dial]` to your `/etc/asterisk/custom/extensions.conf` file.
+## Custom Announcements  (optional)
+
+If you'd like to welcome callers to your gateway with a custom greeting and additional instructions; you can add a common block to use for all your extensions and play your announcements based on that node.    This also simplifies your inbound context by routing the calls through a common block.
+
+
+Add another context named `[asl-direct-dial]` to your `/etc/asterisk/custom/extensions.conf` file.
 
 ```
 [asl-direct-dial]
