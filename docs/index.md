@@ -1,15 +1,17 @@
 
 # Welcome to Digital Voice New Zealand
 
-Digital Voice New Zealand started as an XLX reflector - XLX299 - the first New Zealand-based multi-mode reflector, which still remains the heart of DVNZ, supporting D-Star, DMR, YSF, Peanut and Allstar connections.
+Digital Voice New Zealand started as an XLX reflector - [XLX299](xlx/index.md) - the first New Zealand-based multi-mode reflector, which still remains the heart of DVNZ, supporting D-Star, DMR, YSF, Peanut and Allstar connections.
 
 DVNZ has since expanded its service offerings to include a full Voice over IP telephone service designed for amateur radio operators across Oceania - [NZSIP](nzsip/index.md)
 
-DVNZ is a founding member of ***Digital Voice Down Under*** a collaboration between DVNZ, DVAU, VKRadio and Digital Voice DMR.
+DVNZ is a founding member of ***Digital Voice Down Under*** a [DMR Network](dvdmr/index.md) collaboration between DVNZ, DVAU, VKRadio and Digital Voice DMR.
 
-We encourage you to also join our [Discord community](https://discord.gg/87hz8GYa).   Our discord community is a great place to get support from our admin team, subject matter experts and our wider community.
+!!! info
+    We encourage you to also join our [Discord community](https://discord.gg/87hz8GYa).   Our discord community is a great place to get support from our admin team, subject matter experts and our wider community.
 
-We also operate a [ticketing helpdesk system](https://helpdesk.dvnz.nz) for requesting certain services.
+!!! help
+    We also operate a [ticketing helpdesk system](https://helpdesk.dvnz.nz) for requesting certain services.
 
 ## Acknowledgements
 

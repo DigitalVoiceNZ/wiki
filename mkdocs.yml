@@ -21,6 +21,7 @@ nav:
     - User Guide: nzsip/users.md
     - Device Support: 
       - Index: nzsip/devices/index.md
+      - AllStarLink: nzsip/devices/allstar.md
       - Asterisk: nzsip/devices/asterisk.md
       - Cisco 79xx: nzsip/devices/cisco79xx.md
       - Linphone: nzsip/devices/linphone.md
@@ -49,6 +50,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 plugins:
   - search

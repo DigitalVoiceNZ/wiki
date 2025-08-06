@@ -2,14 +2,31 @@
 
 ## Configuration Summary
 
-* SIP Server
-  * `nzsip.nz` (NZ/AU subscribers) 
-  * `world.nzsip.nz` (International subscribers)
-  
-* LDAP Directory
-  * `ldap://nzsip.nz`
-  * `ldap://world.nzsip.nz`
-  * Base DN: `dc=nzsip,dc=nz`
+!!! info
+    More information on each of these summaries can be found below, but here's the TL;DR section:
+
+### SIP Server
+
+ * SIP Server:
+    * `nzsip.nz` (NZ/AU subscribers) or
+    * `world.nzsip.nz` (International subscribers)
+ * Port: 5060
+ * Username: *your-extension-number*
+ * Password: *your-secret*
+
+### LDAP Directory
+
+ * LDAP Directory:
+    * `ldap://nzsip.nz` (NZ/AU subscribers) or 
+    * `ldap://world.nzsip.nz` (International Subscribers)
+ * Base DN: `dc=nzsip,dc=nz`
+ * Anonymous Bind
+
+### Direct Dial
+
+ * to Hams Over IP: 577 *extension*
+ * to Amateur Wire: 910 *extension*
+ * from either: 640 *nzsip extension*
 
 
 ## Configuring your Device

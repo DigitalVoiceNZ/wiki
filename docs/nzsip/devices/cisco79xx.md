@@ -4,11 +4,13 @@ authors:
 ---
 # Connecting a Cisco 7940/60 to NZSIP
 
-"The 79 series was a workhorse of the early 2000s office, a fantastic phone, my all time favourite, but setting it up is not for the feint of heart" - VK2WAY.
+!!! quote
+    "The 79 series was a workhorse of the early 2000s office, a fantastic phone, my all time favourite, but setting it up is not for the feint of heart" - VK2WAY.
+
 
 Originally these phones were tightly locked down to the proprietary Cisco telephony platform, however when they were reaching end of life Cisco made a SIP firmware available for them, giving them a second life in small offices.  
 
-There are two main ways of configuring the phone; the [Cisco 7940/7960 Administrator Manual](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/3_0/english/administration/guide/ver3_0/maintain.html) for the phone details much of the technical information and parameters for these phones.
+There are two main ways of configuring the phone; the [Cisco 7940/7960 Administrator Manual](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7960g_7940g/sip/3_0/english/administration/guide/ver3_0/maintain.html) for the phone details much of the technical information and parameters for these phones.  I (VK2WAY) have only used the TFTP method which is what is documented here.
 
 ## TFTP Boot
 
@@ -33,7 +35,8 @@ logo_url: "http://services.nzsip.nz/static/nzsip.bmp";
 This is not an extensive list of settings needed by the phone, but other settings should be left with somewhat sensible defaults.
 The logo of course is option, but who wouldn't want their phone to say "Ham Phone NZSIP" with a silver fern?
 
-Be sure to change the EXCHANGE HOSTNAME, EXTENSION and SECRET to those provided to you in your onboarding email.
+!!! warning
+    Be sure to change the EXCHANGE HOSTNAME, EXTENSION and SECRET to those provided to you in your onboarding email.
 
 
 

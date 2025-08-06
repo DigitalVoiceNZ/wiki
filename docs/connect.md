@@ -17,14 +17,18 @@ See our [Channels Page](channels.md) for the SIP extensions to dial for our vari
 
 ## XLX (D-Star and System Fusion)
 
-Digital Voice New Zealand operate XLX299; the Digital Voice New Zealand XLX reflector.
+Digital Voice New Zealand operate [XLX299](xlx/index.md); the Digital Voice New Zealand XLX reflector.
 
 The XLX reflector features rooms and bridges to the Digital Voice DMR network, several peanut connected rooms and connections to Brandmeister talkgroup 530.
+
+See our [Channels Page](channels.md) for the available modules on XLX299.
 
 
 ## M17 
 
-... 
+!!! question
+    This section needs expanding, please help make our documentation better
+
 
 
 ## AllStarLink
@@ -37,7 +41,7 @@ For more information on getting up and running with AllStar consult the [AllStar
 
 Our AllStar node numbers are listed in the [Channels Page](channels.md)
 
-
+For Info on connecting your ASL node to [NZSIP](nzsip/index.md) or the [DVDMR Networks](dvdmr/index.md).
 
 ## Peanut
 
@@ -47,6 +51,5 @@ You can find more at the [Peanut Project](https://peanut.pa7lim.nl)
 
 You can find the Digital Voice New Zealand Peanut rooms in the master rooms list; they all begin with ***XRF299***.
 
-
-
+Specific Peanut room names are listed in the [Channels Page](channels.md)
 

@@ -1,12 +1,20 @@
 
 # NZSIP Device Resources Library
 
-Softphones
+
+## Hardware Phones
+
+* [Cisco 79xx](cisco79xx.md)
+
+## Softphones
 
 * [Linphone Softphone](linphone.md)
 
-Exchange Software
+## Radio Links
+
+* [AllStarLink](allstar.md)
+
+## Exchange Software
 
 * [Asterisk](asterisk.md)
-
 
