@@ -1,4 +1,7 @@
 
+!!! note
+    This documentation library is a collaboration with our community.  See [contributing page](resources/contributing.md) for more information on helping make our documentation awesome. 
+
 # Welcome to Digital Voice New Zealand
 
 Digital Voice New Zealand started as an XLX reflector - [XLX299](xlx/index.md) - the first New Zealand-based multi-mode reflector, which still remains the heart of DVNZ, supporting D-Star, DMR, YSF, Peanut and Allstar connections.

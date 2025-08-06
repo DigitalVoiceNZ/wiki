@@ -8,6 +8,16 @@ theme:
     - navigation.tabs
     - navigation.indexes
 
+
+copyright: Copyright &copy; 2025 Digital Voice New Zealand.  Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blan">CC BY-NC-SA</a>
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/digitalvoicenz/wiki
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/87hz8GYa
+
 extra_css:
   - assets/extra.css
 
@@ -16,6 +26,7 @@ nav:
     - Welcome: index.md
     - Connect: connect.md
     - Channels: channels.md
+    - Contributing: resources/contributing.md
   - NZSIP: 
     - About: nzsip/index.md
     - User Guide: nzsip/users.md

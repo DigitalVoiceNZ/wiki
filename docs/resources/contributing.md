@@ -42,4 +42,6 @@ Like this
 
 All contributions must be made available under a Creative Commons Share and Share-A-Like license compatible with our own.
 
+!!! note
+    Our documentation is made available under a [Creative Commons Attribution-NonCommercial-ShareALike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/)  license.  All contributions may include an attribution indicating you as the author but must be released to us under a compatible license.   You agree to us releasing your contributions under this license by contributing to our documentation.
 
