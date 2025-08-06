@@ -4,6 +4,9 @@ AllStarLink provides a network of internet connected RF Nodes, Conferences and B
 
 This guide is designed for those who would like to connect an AllStar node to the NZSIP network via a telephone bridge (with push to talk).
 
+!!! info
+    This document is based on a working setup using ASL3.  The instructions should be backwards compatible with previous versions of ASL.
+
 Request a new trunk from the [NZSIP Helpdesk](https://helpdesk.nzsip.nz).  Only one trunk is required per AllStar server; extensions will be routed to the trunk for each individual service or IVR menu you wish to provide.
 
 Setting up nodes on your AllStarLink server is beyond the scope of this document.
@@ -16,6 +19,7 @@ Throughout these examples you'll see some numbers:
 
 * 69333 and 69292 are NZSIP extensions routed across the example trunk.
 * 1923 and 1922 are Private Allstar Node numbers on the allstar node with assumed 'on-startup' connections to public allstar nodes.
+* 560023 and 560022 are Public Allstar Node numbers hosted on the same server as the private nodes.
 
 
 ## Create a ASL Private Node
