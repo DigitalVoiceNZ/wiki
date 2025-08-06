@@ -7,8 +7,9 @@ DVNZ has since expanded its service offerings to include a full Voice over IP te
 
 DVNZ is a founding member of ***Digital Voice Down Under*** a collaboration between DVNZ, DVAU, VKRadio and Digital Voice DMR.
 
-We encourage you to also join our [Discord community](https://discord.gg/87hz8GYa).
+We encourage you to also join our [Discord community](https://discord.gg/87hz8GYa).   Our discord community is a great place to get support from our admin team, subject matter experts and our wider community.
 
+We also operate a [ticketing helpdesk system](https://helpdesk.dvnz.nz) for requesting certain services.
 
 ## Acknowledgements
 

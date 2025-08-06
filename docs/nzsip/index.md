@@ -19,9 +19,21 @@ With NZSIP, you can connect your existing SIP-compatible phone or softphone and 
 
 Documentation on the various services and how to configure specific hardware can be found in the [NZSIP Documentation](users.md) library.
 
-## Requesting an Extension
+## New Service Requests
 
-To request an extension please info info@dvnz.nz with your name, callsign and location.   
+### Requesting an Extension
 
-By default all extensions will be provisioned using the SIP protocol.   If you require IAX, would like to operate bridges, RF links or trunks please specify the nature of these services in your initial email.
+By default all extensions will be provisioned using the SIP protocol.   
+
+To request an extension please [raise a ticket](https://helpdesk.dvnz.nz/open.php) and select "NZSIP/Request New Extension" from the available categories.
+
+Alternatively a ticket can be raised by sending an email to helpdesk@dvnz.nz, please be sure to include your name, callsign and country of residence.   
+
+### Requesting a Trunk
+
+If you require multiple extensions/number range (trunking), IAX2 (inter-asterisk exchange protocol), would like to operate bridges, RF links or other services then a trunk is the appropriate connection type.
+
+To request a trunk please [raise a ticket](https://helpdesk.dvnz.nz/open.php) and select "NZSIP/Request New Trunk" from the available categories.
+
+
 
