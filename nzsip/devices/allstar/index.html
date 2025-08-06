@@ -1431,9 +1431,10 @@ exten =&gt; 69333,1,rpt(1923,P)
 <p>If you'd like to welcome callers to your gateway with a greeting and instructions; you can add a common block to use for all your extensions and play your announcements based on that node.   Add another context named <code>[asl-direct-dial]</code> to your <code>/etc/asterisk/custom/extensions.conf</code> file.</p>
 <div class="highlight"><pre><span></span><code>[asl-direct-dial]
 exten =&gt; _X.,1,Answer()
-;same =&gt; n,Playback(rpt/connected-to&amp;rpt/node)
 same =&gt; n,Set(RPT_NODE=${EXTEN})
-same =&gt; n,Playback(custom/welcome&amp;custom/dialled${EXTEN}&amp;custom/ptt)
+same =&gt; n,Playback(custom/welcome)
+same =&gt; n,Playback(custom/dialled${EXTEN})
+same =&gt; n,Playback(custom/ptt)
 same =&gt; n,Playback(beep)
 same =&gt; n,rpt(${EXTEN},P)
 </code></pre></div>
@@ -1445,21 +1446,32 @@ exten =&gt; 69333,1,Goto(asl-direct-dial,1923,1)
 <h2 id="ivr-menu-optional">IVR Menu (Optional)</h2>
 <p>If you'd like to create an IVR menu for multiple allstar nodes; here is an example:</p>
 <div class="highlight"><pre><span></span><code>[asl-menu]
+; menu entry point
 exten =&gt; 200,1,Answer()
+
+; uninerruptable greeting
 same =&gt; n,Playback(custom/welcome-gateway)
+
+; interruptable menu; multiple items must be concatenated with
+; &amp; so that they play as one task to be interrupted correcctly
 same =&gt; n(ivrloop),Background(custom/menu-dial-1&amp;custom/menu-dial-2)
 same =&gt; n(ivrwait),WaitExten()
 
 ; The numbers to dial in the menu mapped to private node
-; via the above example announcements
+; via the block we created in the above example;  the parameters
+; are the private node; the first number before the comma 
+; is the menu option dialled.
 exten =&gt; 1,1,Goto(asl-direct-dial,1922,1)
 exten =&gt; 2,1,Goto(asl-direct-dial,1923,1)
 
-exten =&gt; *,1,Goto(tg-menu,200,ivrloop)
+; press * to repeat the menu
+exten =&gt; *,1,Goto(asl-menu,200,ivrloop)
 
+; invalid extension handler
 exten =&gt; i,1,Playback(custom/whatwasthat)
-same =&gt; n,Goto(tg-menu,200,ivrwait)
+same =&gt; n,Goto(asl-menu,200,ivrwait)
 
+; timeout handler
 exten =&gt; t,1,Playback(custom/whatwasthat)
 </code></pre></div>
 <div class="admonition note">
