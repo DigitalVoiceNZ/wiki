@@ -25,6 +25,7 @@ nav:
       - Asterisk: nzsip/devices/asterisk.md
       - Cisco 79xx: nzsip/devices/cisco79xx.md
       - Linphone: nzsip/devices/linphone.md
+      - Yealink SIP T2: nzsip/devices/yealink-sipt2.md
   - DMR:
     - Digital Voice:
       - About: dvdmr/index.md
