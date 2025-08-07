@@ -21,6 +21,8 @@ Documentation on the various services and how to configure specific hardware can
 
 ## New Service Requests
 
+Most folks connecting a phone to NZSIP want a SIP extension;  a range of specialised services are also offered such as IAX trunks for connecting Asterisk based exchanges,  IVR menus and call routing, ring-groups and audio playout services.
+
 ### Requesting an Extension
 
 By default all extensions will be provisioned using the SIP protocol.   
@@ -35,5 +37,9 @@ If you require multiple extensions/number range (trunking), IAX2 (inter-asterisk
 
 To request a trunk please [raise a ticket](https://helpdesk.dvnz.nz/open.php) and select "NZSIP/Request New Trunk" from the available categories.
 
+
+### Requesting "Office" services
+
+Some radio clubs may want NZSIP to host an IVR voice menu for them, allowing a selection of mailboxes for various functions of the board, a ring group to ring multiple extensions or other specialist service.   Please [raise a ticket](https://helpdesk.dvnz.nz/open.php) and select "NZSIP/General Support" nd tell us as much about what you would like to achieve as possible.  We'll help come up with the best solution for you!
 
 
