@@ -1,6 +1,8 @@
 
 # FAQ
 
+This document answers some of the questions we occasionally get;  it's not an operation guide for that, see [user guide](users.md).
+
 ???+ warning "Can I call emergency telephone numbers?"
     No, we do not support calling emergency services telephone numbers from your NZSIP service.  your NZSIP service is not a replacement for a traditional telephone service.
 
