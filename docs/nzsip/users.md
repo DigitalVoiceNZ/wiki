@@ -103,6 +103,46 @@ Test and local service numbers:
 * 59801 - IVR Adventure Game
 * 59802 - Your Call is Important to Us (Menu Maze Game)
 
+## Advanced Services
+
+### Blacklist Management
+
+We offer the ability to manage your own caller blacklist.
+
+* \*30 - Add number to blacklist
+* \*31 - Remove number from blacklist
+* \*32 - Add last caller to blacklist
+
+Additionally you can utilise an allow list for priority calls and enable the reception of calls only from listed numbers; this is similar to Do-Not-Disturb but allows you to specify numbers who are allowed to reach you:
+
+* \*38 - Add a number to the allowlist
+* \*39 - Remove a number from the allowlist
+* \*40 - Add the last caller to the allowlist
+* \*41 - Pause or unpause Allowlist checking
+
+### Call Waiting &amp; Forwarding
+
+* \*70 - Call Waiting Activate
+* \*71 - Call Waiting Deactivate
+* \*72 - Call Forward ALL Activate
+* \*73 - Call Forward ALL Deactivate
+* \*74 - Call Forward ALL (Prompted) Deactivate
+* \*90 - Call Forward Busy Activate
+* \*91 - Call Forward Busy Deactivate
+* \*92 - Call Forward Busy Prompting Deactivate
+* \*93 - Call Forward All Prompting Activate
+* \*94 - Call Forward Busy Prompting Activate
+* \*95 - Call Forward No Answer/Unavailable Prompting Activate
+* \*96 - Call Forward Toggle
+
+### Do Not Disturb
+
+Control the Do-Not-Disturb Mode
+
+* \*76 - DND Toggle
+* \*78 - DND Activate
+* \*79 - DND Deactivate
+
 ## Direct Dial
 
 NZSIP is interconnected with both Hams Over IP and Amateur Wire.
