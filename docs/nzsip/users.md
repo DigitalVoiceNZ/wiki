@@ -47,7 +47,7 @@ See our [Device Configuration Guide](devices/index.md) for specific information 
 
 ## Extension Status
 
-You can view the status of the extensions directly connected to our network at our [multi-exchange BLF indicator](https://mmd.dvdmr.org).
+You can view the status of the extensions directly connected to our network at our [multi-exchange BLF indicator](https://blf.nzsip.nz).
 
 ## Exchanges
 
