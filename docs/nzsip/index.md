@@ -13,11 +13,20 @@ With NZSIP, you can connect your existing SIP-compatible phone or softphone and 
 * RF Links, Conferences and Bridges for traditional radio over VoIP
 * Busy Line Indication 
 * Voice Mail
+* Call Control Features (Waiting, Forwarding, Allowlist, Blacklist)
 * Bring your own device (hardware or software)
 * Global LDAP Phone Directory (including users of connected services)
 * Games!
 
 Documentation on the various services and how to configure specific hardware can be found in the [NZSIP Documentation](users.md) library.
+
+## Supported Devices
+
+It's BYOD!  From free softphones to the most featureful IP desk phone.    Our resources section contains some documentation on some of the devices our community have made work with NZSIP.
+
+We support standards protocols - if your device talks SIP or IAX you can probably join the network!   
+
+If you're making a purchasing decision we recommend checking our resources section and doing some research.
 
 ## New Service Requests
 
@@ -35,11 +44,28 @@ Alternatively a ticket can be raised by sending an email to helpdesk@dvnz.nz, pl
 
 If you require multiple extensions/number range (trunking), IAX2 (inter-asterisk exchange protocol), would like to operate bridges, RF links or other services then a trunk is the appropriate connection type.
 
+Some examples of things you can do with a trunk:
+
+* Host your own Asterisk exchange and connect with us
+* Host your own bridges, RF links and services
+
 To request a trunk please [raise a ticket](https://helpdesk.dvnz.nz/open.php) and select "NZSIP/Request New Trunk" from the available categories.
 
 
 ### Requesting "Office" services
 
-Some radio clubs may want NZSIP to host an IVR voice menu for them, allowing a selection of mailboxes for various functions of the board, a ring group to ring multiple extensions or other specialist service.   Please [raise a ticket](https://helpdesk.dvnz.nz/open.php) and select "NZSIP/General Support" nd tell us as much about what you would like to achieve as possible.  We'll help come up with the best solution for you!
+Some radio clubs may want NZSIP to host an IVR voice menu for them, allowing a selection of mailboxes for various functions of the board, a ring group to ring multiple extensions or other specialist service.   
+
+Some examples of services NZSIP can offer:
+
+* Club mailbox with email gateway
+* Greeting, Information an mailbox menu
+* Multiple mailboxes
+* Ring-Groups
+* Bulletin Playout (with optional automated callback recording system)
+
+Please [raise a ticket](https://helpdesk.dvnz.nz/open.php) and select "NZSIP/General Support" nd tell us as much about what you would like to achieve as possible.  We'll help come up with the best solution for you!
+
+
 
 
