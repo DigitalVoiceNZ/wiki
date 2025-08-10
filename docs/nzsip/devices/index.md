@@ -5,7 +5,7 @@
 ## Hardware Phones
 
 * [Cisco 79xx](cisco79xx.md)
-* [Yealink SIP T2 IP Phone](yealink-sipt2.md)
+* [Yealink SIP T2 Series IP Phone](yealink-sipt2.md)
 
 ## Softphones
 

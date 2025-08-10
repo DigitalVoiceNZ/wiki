@@ -1,10 +1,10 @@
 
-# Yealink SIP-T21P IP Phone
+# Yealink SIP-T2 Series IP Phone
 
 This phone setup guide should be read in conjunction with our [NZSIP User Guide](../index.md).
 
 !!! note
-    Firmware version 9.60.0.140 on hardware 7.0.0.60 was used for this guide
+    Yealink SIP T20P IP Phone - Firmware version 9.60.0.140 on hardware 7.0.0.60 was used for this guide
 
 1.  Connect to your Yealink IP Phone's web interface and authenticate as administrator.  The default username and password is `admin`.
 
