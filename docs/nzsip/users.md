@@ -44,6 +44,14 @@ The SIP server will be either one of `nzsip.nz` or `world.nzsip.nz` depending up
 
 See our [Device Configuration Guide](devices/index.md) for specific information relevant to various devices, contributed by our community.
 
+## Voicemail
+
+A mailbox is configured for all extensions by default.   To reach your mailbox dial `*97`.
+
+The default PIN for accessing your mailbox is the same as your extension.   It is highly encouraged that you at minimum change this PIN even if you do not intend to use your mailbox service.
+
+On first access of your mailbox the ***Comedian VoiceMail*** you will be stepped through a simple process to set your greetings and PIN number.
+
 
 ## Extension Status
 
@@ -93,8 +101,8 @@ Test and local service numbers:
 * \*43 – Echo Test
 * \*60 – Speaking Clock
 * \*68 – Wake Up Calls
-* \*97 – My Voicemail
 * \*65 – Speak Your Exten Number
+* \*97 – My Voicemail
 
 ### Other services to try:
 
