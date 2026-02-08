@@ -1,1 +1,16 @@
 site/
+
+*~
+*.bak
+*.swp
+*.tmp
+# OS debris
+.DS_Store
+Thumbs.db
+# Python debris
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
