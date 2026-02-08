@@ -15,7 +15,7 @@ DVNZ has since expanded its service offerings to include:
 * FreeDMR NZ - we host and manage the the New Zealand FreeDMR DMR Master Server.
 
 !!! info
-    We encourage you to also join our [Discord community](https://discord.gg/87hz8GYa).   Our discord community is a great place to get support from our admin team, subject matter experts and our wider community.
+    We encourage you to also join our [Discord community](https://discord.gg/9wKrdUAnQ3).   Our discord community is a great place to get support from our admin team, subject matter experts and our wider community.
 
 !!! help
     We also operate a [ticketing helpdesk system](https://helpdesk.dvnz.nz) for requesting certain services.
