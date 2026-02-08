@@ -16,7 +16,7 @@ DVNZ has since expanded its service offerings to include:
 
 !!! info
     We encourage you to also join our [Discord community](https://discord.gg/9wKrdUAnQ3).   Our discord community is a great place to get support from our admin team, subject matter experts and our wider community.
-
+    Also join our [Discord 404 Club](https://discord.gg/rCNPBJpABw).
 !!! help
     We also operate a [ticketing helpdesk system](https://helpdesk.dvnz.nz) for requesting certain services.
 
