@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:   # allow manual workflow deploy
 
 permissions:
   contents: write
