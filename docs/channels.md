@@ -63,13 +63,13 @@ DMR talkgroups listed here are carried on other networks:
 
 |Name||DMR|XLX|M17|Allstar|Peanut|SIP|
 |:--||:--|:--|:--|:--|:--|:--|
-|Brandmeister 530||BM 530|XLX299-B :material-shield:| | | |
-|Active Elements||BM 53085 |XLX299-S :material-shield:| |XRF299S| |
+|Brandmeister 530||BM 530|XLX299-D :material-shield:| | | |
+|Active Elements||BM 53085 |XLX299-S :material-shield:| | |XRF299S| |
 |ANZEL Echolink Network|| |XLX299-H :material-shield:| | | |
 |Get On Air|| |XLX299-M :material-shield:| | | |
 |ZL TRBO|| |XLX299-O :material-shield:| | | |
 |XLX Worldwide|:globe_with_meridians:| |XLX299-A :material-shield:| | | | |
-|VK Hub|:flag_au:| |XLX299-V :material-shield:| | | |XRF299V|
+|VK Hub|:flag_au:| |XLX299-V :material-shield:| | |XRF299V| |
 
 
 
