@@ -15,8 +15,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/digitalvoicenz/wiki
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/+H8KgiQPdncUyMDgz
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/87hz8GYa
+      link: https://discord.gg/qXs5rYFmDJ
 
 extra_css:
   - assets/extra.css
