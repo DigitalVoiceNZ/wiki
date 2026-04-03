@@ -36,4 +36,6 @@ We would like to acknowledge the following people who have and continue to  supp
 * Shane M0VUB for Support with DVNZ.
 * Branch 53 – Te Puke Amateur Radio Club for Support with DVNZ.
 * ROAR Rotarians of Amateur Radio for Support with DVNZ.
+* Sean ZL1SXG  for Site and hosting Support.
+* AJ ZL1AJ  for Repeater (ZL2ROR) Support.
 
