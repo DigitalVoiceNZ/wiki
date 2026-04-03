@@ -24,9 +24,9 @@ DVNZ has since expanded its service offerings to include:
 
 We would like to acknowledge the following people who have and continue to  support Digital Voice New Zealand.
 
-* Ivan ZL1OTF  for Support and hosting ZL1OTD  as part of DVNZ Network.
+* Ivan ZL1OTF  for Support and Hosting ZL1OTD  as part of DVNZ Network.
 * Bow ZL1HX for hosting ZL1HXD as part of DVNZ Network.
-* Simon ZL1SWW for Support with DVNZ Network.
+* Simon ZL1SWW for Support and Hosting with DVNZ Network.
 * Sasha ZL1JX  for Support with DVNZ Network.
 * Dennis ZL1UET for Repeater Support with DVNZ Network. ZL2ROR
 * Jim 7J1AJH for System Support with DVNZ Network.
@@ -36,6 +36,7 @@ We would like to acknowledge the following people who have and continue to  supp
 * Shane M0VUB for Support with DVNZ.
 * Branch 53 – Te Puke Amateur Radio Club for Support with DVNZ.
 * ROAR Rotarians of Amateur Radio for Support with DVNZ.
-* Sean ZL1SXG  for Site and hosting Support.
+* Sean ZL1SXG  for Site and Hosting Support.
 * AJ ZL1AJ  for Repeater (ZL2ROR) Support.
+* Alan ZL1ASJ  for Support and Hosting.
 
