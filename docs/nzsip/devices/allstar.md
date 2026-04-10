@@ -2,7 +2,7 @@
 
 AllStarLink provides a network of internet connected RF Nodes, Conferences and Bridges.  You can find out more on their [website](https://allstarlink.org).
 
-This guide is designed for those who would like to connect an AllStar node to the NZSIP network via a telephone bridge (with push to talk).
+This guide is designed for those who would like to connect an AllStar node to the NZSIP network via a telephone bridge (with push-to-talk).
 
 !!! info
     This document is based on a working setup using ASL3.  The instructions should be backwards compatible with previous versions of ASL.
@@ -72,13 +72,9 @@ same => n,SayAlpha(560023)
 same => n,rpt(1923,P)
 ```
 
-!!! warning
-    We require AllStarLink numbers to identify themselves when they answer rather than droppig a user into a bridge with no instructions.  Update the *SayAlpha* lines in the above block to reflect the public node number that your private node connects to (560022 and 560023 in this example).
-
-
 ## Custom Announcements  (optional)
 
-If you'd like to welcome callers to your gateway with a custom greeting and additional instructions; you can add a common block to use for all your extensions and play your announcements based on that node.    This also simplifies your inbound context by routing the calls through a common block.
+If you'd like to welcome callers to your gateway with a custom greeting and additional instructions, you can add a common block to use for all your extensions and play your announcements based on that node.    This also simplifies your inbound context by routing the calls through a common block.
 
 
 Add another context named `[asl-direct-dial]` to your `/etc/asterisk/custom/extensions.conf` file.
@@ -94,7 +90,7 @@ same => n,Playback(beep)
 same => n,rpt(${EXTEN},P)
 ```
 
-This example assumes you have uploaded audio files `welcome`, `dialledXXXXX` and `ptt` to the `custom` sound files in your allstar node.  Each node should have it's own dialledXXXXXX file where the XXXXX is the node number dialled (e.g. 1923).
+This example assumes you have uploaded audio files `welcome`, `dialledXXXXX` and `ptt` to the `custom` sound files in your Allstar node.  Each node should have its own dialledXXXXXX file where the XXXXX is the node number dialed (e.g. 1923).
 
 Update your `[from-nzsip]` block to call the asl-direct-dial context instead of the repeater function:
 
@@ -105,7 +101,7 @@ exten => 69333,1,Goto(asl-direct-dial,1923,1)
 
 ## IVR Menu (Optional)
 
-If you'd like to create an IVR menu for multiple allstar nodes; here is an example:
+If you'd like to create an IVR menu for multiple Allstar nodes; here is an example:
 
 
 ```
@@ -113,7 +109,7 @@ If you'd like to create an IVR menu for multiple allstar nodes; here is an examp
 ; menu entry point
 exten => 200,1,Answer()
 
-; uninerruptable greeting
+; uninterruptable greeting
 same => n,Playback(custom/welcome-gateway)
 
 ; interruptable menu; multiple items must be concatenated with
@@ -124,7 +120,7 @@ same => n(ivrwait),WaitExten()
 ; The numbers to dial in the menu mapped to private node
 ; via the block we created in the above example;  the parameters
 ; are the private node; the first number before the comma 
-; is the menu option dialled.
+; is the menu option dialed.
 exten => 1,1,Goto(asl-direct-dial,1922,1)
 exten => 2,1,Goto(asl-direct-dial,1923,1)
 
@@ -141,9 +137,9 @@ exten => t,1,Playback(custom/whatwasthat)
 !!! note
     The extension number 200 within the menu context is the entrypoint; if you require a menu option 200 please change it to any number unused by your menu but update it accordingly in the inbound context below.
 
-This example assumes you have audio files `welcome-gateway`, `menu-dial-XX`, and `whatwasthat` in your allstar node's custom asterisk sounds folder. The menu-XX files should be replicated for each menu item read out.  
+This example assumes you have audio files `welcome-gateway`, `menu-dial-XX`, and `whatwasthat` in your allstar node's custom Asterisk sounds folder. The menu-XX files should be replicated for each menu item read out.  
 
-The menu can be interrupted by dialling the option at any time.
+The menu can be interrupted by dialing the option at any time.
 
 You can then map an extension to your menu in your `from-nzsip` block:
 
